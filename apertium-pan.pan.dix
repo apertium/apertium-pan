@@ -7,20 +7,87 @@
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"     c="Noun"/>
+
     <sdef n="post"  c=""/>
+    <sdef n="m"  c=""/>
+    <sdef n="f"  c=""/>
+    <sdef n="sg"  c=""/>
+    <sdef n="pl"  c=""/>
+    <sdef n="nom"  c=""/>
+    <sdef n="obl"  c=""/>
 
   </sdefs>
 
   <pardefs>
-    <!-- Define paradigms within <pardef> here. -->
+    <!-- SECTION: Postpositions -->
     <pardef n="ਪਰ__post">
       <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Nouns -->
+
+    <pardef n="ਰਾਜ__n_m">
+      <e><p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਾਂ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਾਂ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ਬਾਤ__n_f">
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਾਂ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਾਂ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ਨਦੀ__n_f">
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਆਂ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਆਂ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+    <pardef n="ਤੀਵੀ/ਂ__n_f">
+      <e><p><l>ਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਆਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਆਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+    <pardef n="ਪੂਜਾ__n_f">
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਵਾਂ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਵਾਂ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+    <pardef n="ਸੂਬ/ਾ__n_m">
+      <e><p><l>ਾ</l><r>ਾ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ੇ</l><r>ਾ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ੇ</l><r>ਾ<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਿਆਂ</l><r>ਾ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+    <pardef n="ਖ਼ੁਦਾਈ__n_f">
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+    <pardef n="ਦੁਨੀਆ/ਂ__n_f">
+      <e><p><l>ਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਵਾਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਵਾਂ</l><r>ਂ<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+    <pardef n="ਅਮਰੀਕੀ__n_m">
+      <e><p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਆਂ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਆਂ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
   </pardefs>
 
   <section id="main" type="standard">
-    <!-- Define entries within <e> here. -->
 
+
+    <!-- SECTION: Postpositions -->
 
     <e lm="ਅਨੁਸਾਰ"><i>ਅਨੁਸਾਰ</i><par n="ਪਰ__post"/></e>
     <e lm="ਇਲਾਵਾ"><i>ਇਲਾਵਾ</i><par n="ਪਰ__post"/></e>
@@ -50,13 +117,53 @@
     <e lm="ਬਿਨਾਂ"><i>ਬਿਨਾਂ</i><par n="ਪਰ__post"/></e>
     <e lm="ਨਾਲ"><i>ਨਾਲ</i><par n="ਪਰ__post"/></e>
 
+    <!-- SECTION: Nouns -->
+
+    <e lm="ਬੋਲੀ"><i>ਬੋਲੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਸੂਬਾ"><i>ਸੂਬ</i><par n="ਸੂਬ/ਾ__n_m"/></e>
+    <e lm="ਜ਼ੁਬਾਨ"><i>ਜ਼ੁਬਾਨ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਪੂਜਾ"><i>ਪੂਜਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਗੱਲ"><i>ਗੱਲ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਪ੍ਰਕਿਰਤੀ"><i>ਪ੍ਰਕਿਰਤੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਮਿੱਟੀ"><i>ਮਿੱਟੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਭਾਸ਼ਾ"><i>ਭਾਸ਼ਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਖੇਹ"><i>ਖੇਹ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਪਛਾਣ"><i>ਪਛਾਣ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਆਦਤ"><i>ਆਦਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਪੁਸਤਕ"><i>ਪੁਸਤਕ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਮਾਤਾ"><i>ਮਾਤਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਕਿਰਿਆ"><i>ਕਿਰਿਆ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਫਿਤਰਤ"><i>ਫਿਤਰਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਮਹਿਲਾ"><i>ਮਹਿਲਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਰਾਖੀ"><i>ਰਾਖੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਇਬਾਦਤ"><i>ਇਬਾਦਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਪੋਥੀ"><i>ਪੋਥੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਨਦੀ"><i>ਨਦੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਨਾਰੀ"><i>ਨਾਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਕੁਦਰਤ"><i>ਕੁਦਰਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਮਰਗ"><i>ਮਰਗ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਬੰਦਗੀ"><i>ਬੰਦਗੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਬਾਤ"><i>ਬਾਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਰਾਜ"><i>ਰਾਜ</i><par n="ਰਾਜ__n_m"/></e>
+    <e lm="ਖ਼ੁਦਾਈ"><i>ਖ਼ੁਦਾਈ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਕ੍ਰਿਆ"><i>ਕ੍ਰਿਆ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਖ਼ਲਕਤ"><i>ਖ਼ਲਕਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਦੁਨੀਆਂ"><i>ਦੁਨੀਆ</i><par n="ਦੁਨੀਆ/ਂ__n_f"/></e>
+    <e lm="ਆਰਾਧਨਾ"><i>ਆਰਾਧਨਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਭੂਮਿਕਾ"><i>ਭੂਮਿਕਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਅਦਾਕਾਰੀ"><i>ਅਦਾਕਾਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਤੀਵੀਂ"><i>ਤੀਵੀ</i><par n="ਤੀਵੀ/ਂ__n_f"/></e>
+    <e lm="ਅਮਰੀਕੀ"><i>ਅਮਰੀਕੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਮੌਤ"><i>ਮੌਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਦੇਵੀ"><i>ਦੇਵੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਕਿਤਾਬ"><i>ਕਿਤਾਬ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਰਾਜਧਾਨੀ"><i>ਰਾਜਧਾਨੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਮਦਦ"><i>ਮਦਦ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਚਰਚਾ"><i>ਚਰਚਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+
+
   </section>
 
 </dictionary>
 
-<!-- 
-Resources: 
-    http://wiki.apertium.org/wiki/Monodix_basics
-    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Monolingual_dictionaries
--->
 
