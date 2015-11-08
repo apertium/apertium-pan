@@ -2,28 +2,54 @@
 <dictionary>
 
   <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet></alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"     c="Noun"/>
-    <sdef n="attr"  c="Attributive"/>
-    <sdef n="sg"    c="Singular"/>
-    <sdef n="pl"    c="Plural"/>
+    <sdef n="post"  c=""/>
+
   </sdefs>
 
   <pardefs>
     <!-- Define paradigms within <pardef> here. -->
-    <pardef n="house__n">
-      <e><p><l></l><r><s n="n"/><s n="attr"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+    <pardef n="ਪਰ__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
     </pardef>
   </pardefs>
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
-    <e lm="house"><i>house</i><par n="house__n"/></e>
+
+
+    <e lm="ਅਨੁਸਾਰ"><i>ਅਨੁਸਾਰ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਇਲਾਵਾ"><i>ਇਲਾਵਾ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਅੱਗੇ"><i>ਅੱਗੇ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਵੱਲ"><i>ਵੱਲ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਦਾ"><i>ਦਾ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਨੂੰ"><i>ਨੂੰ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਖ਼ਿਲਾਫ਼"><i>ਖ਼ਿਲਾਫ਼</i><par n="ਪਰ__post"/></e>
+    <e lm="ਜ਼ਰੀਏ"><i>ਜ਼ਰੀਏ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਦੌਰਾਨ"><i>ਦੌਰਾਨ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਦੁਆਰਾ"><i>ਦੁਆਰਾ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਨੀਚੇ"><i>ਨੀਚੇ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਨੇ"><i>ਨੇ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਪਰ"><i>ਪਰ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਉੱਤੇ"><i>ਉੱਤੇ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਬਤੌਰ"><i>ਬਤੌਰ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਬਾਰੇ"><i>ਬਾਰੇ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਬਿਨਾਂ"><i>ਬਿਨਾਂ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਮੁਤਾਬਕ"><i>ਮੁਤਾਬਕ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਵਿੱਚ"><i>ਵਿੱਚ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਲਈ"><i>ਲਈ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਲਈ "><i>ਲਈ </i><par n="ਪਰ__post"/></e>
+    <e lm="ਸਮੇਤ"><i>ਸਮੇਤ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਸਹਿਤ"><i>ਸਹਿਤ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਨਾਲ"><i>ਨਾਲ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਬਿਨਾਂ"><i>ਬਿਨਾਂ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਬਿਨਾਂ"><i>ਬਿਨਾਂ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਨਾਲ"><i>ਨਾਲ</i><par n="ਪਰ__post"/></e>
+
   </section>
 
 </dictionary>
