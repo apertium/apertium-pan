@@ -102,11 +102,10 @@
     <pardef n="ਮੇਰ/ੀ__prn">
       <e><p><l>ੀ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ੀ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-     <e><p><l>ੀਏ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="sg"/><s n="voc"/></r></p></e>
+     <e><p><l>ੀਏ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
       <e><p><l>ੀਆਂ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ੀਆਂ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
-     <e><p><l>ੀਓ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pl"/><s n="voc"/></r></p></e>
-
+     <e><p><l>ੀਓ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
     </pardef>
 
 <!--Second Person -->
