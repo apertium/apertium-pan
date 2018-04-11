@@ -5,6 +5,9 @@
     <sdef n="m"               c="Masculine"/>
     <sdef n="sg"              c="Singular"/>
     <sdef n="nom"             c="Nominative"/>
+
+    <sdef n="cm"              c=""/>
+    <sdef n="sent"            c=""/>
   </sdefs>
   <pardefs>
     <pardef n="یار__n">
@@ -13,5 +16,13 @@
   </pardefs>
   <section id="main" type="standard">
     <e lm="یار"><i>یار</i><par n="یار__n"/></e>
+  </section>
+  <section id="final" type="inconditional">
+    <e lm="۔"><i>۔</i><p><l></l><r><s n="sent"/></r></p></e>
+    <e lm="؛"><i>؛</i><p><l></l><r><s n="sent"/></r></p></e>
+    <e lm="؟"><i>؟</i><p><l></l><r><s n="sent"/></r></p></e>
+    <e lm="."><i>.</i><p><l></l><r><s n="sent"/></r></p></e>
+    <e lm="!"><i>!</i><p><l></l><r><s n="sent"/></r></p></e>
+    <e lm="،"><i>،</i><p><l></l><r><s n="cm"/></r></p></e>
   </section>
 </dictionary>
