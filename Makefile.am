@@ -74,7 +74,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1)_$(VAR1).dix		\
 		$(BASENAME).$(LANG1).acx	\
 		$(BASENAME).$(LANG1).rlx	\
 		$(BASENAME).post-$(LANG1).dix	\
-		$(LANG1).prob			\
+		$(LANG1)_$(VAR1).prob			\
+		$(LANG1)_$(VAR2).prob			\
 		modes.xml
 
 ###############################################################################
@@ -87,7 +88,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1)_$(VAR1).dix		\
 apertium_pandir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_pan_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_pan_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_pan_DATA=$(TARGETS_COMMON) $(LANG1)_$(VAR1).prob $(LANG1)_$(VAR2).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
