@@ -5,14 +5,19 @@
 RELEASE=0.1
 VERSION=0.1.0
 LANG1=pan
+VAR1=Guru
+VAR2=Arab
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON =			\
-	$(LANG1).automorf.bin		\
-	$(LANG1).automorf.att.gz	\
-	$(LANG1).autogen.bin		\
-	$(LANG1).autogen.att.gz		\
-	$(LANG1).autopgen.bin		\
+	$(LANG1)_$(VAR1).automorf.bin		\
+	$(LANG1)_$(VAR1).automorf.att.gz	\
+	$(LANG1)_$(VAR1).autogen.bin		\
+	$(LANG1)_$(VAR1).autogen.att.gz		\
+	$(LANG1)_$(VAR2).automorf.bin		\
+	$(LANG1)_$(VAR2).automorf.att.gz	\
+	$(LANG1)_$(VAR2).autogen.bin		\
+	$(LANG1)_$(VAR2).autogen.att.gz		\
 	$(LANG1).rlx.bin
 
 # Use this goal for creating .deps, otherwise make -j2 will give problems:
@@ -22,22 +27,37 @@ TARGETS_COMMON =			\
 ## Punjabi transducer
 ###############################################################################
 
-$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix .deps/.d
-	apertium-validate-dictionary $<
-	lt-comp rl $< $@ $(BASENAME).$(LANG1).acx
+## Devanagari script (Gurmukhi)
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+$(LANG1)_$(VAR1).autogen.bin: $(BASENAME).$(LANG1)_$(VAR1).dix .deps/.d
 	apertium-validate-dictionary $<
-	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
+	lt-comp rl $< $@ $(BASENAME).$(LANG1)_$(VAR1).acx
 
-$(LANG1).autogen.att.gz: $(LANG1).autogen.bin
+$(LANG1)_$(VAR1).automorf.bin: $(BASENAME).$(LANG1)_$(VAR1).dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@ $(BASENAME).$(LANG1)_$(VAR1).acx
+
+$(LANG1)_$(VAR1).autogen.att.gz: $(LANG1)_$(VAR1).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@
 
-$(LANG1).automorf.att.gz: $(LANG1).automorf.bin
+$(LANG1)_$(VAR1).automorf.att.gz: $(LANG1)_$(VAR1).automorf.bin
 	lt-print $< | gzip -9 -c -n > $@
 
-$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	lt-comp lr $< $@
+## Arabic script (Shahmukhi)
+
+$(LANG1)_$(VAR2).autogen.bin: $(BASENAME).$(LANG1)_$(VAR2).dix .deps/.d
+	apertium-validate-dictionary $<
+	lt-comp rl $< $@ $(BASENAME).$(LANG1)_$(VAR2).acx
+
+$(LANG1)_$(VAR2).automorf.bin: $(BASENAME).$(LANG1)_$(VAR2).dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@ $(BASENAME).$(LANG1)_$(VAR2).acx
+
+$(LANG1)_$(VAR2).autogen.att.gz: $(LANG1)_$(VAR2).autogen.bin
+	lt-print $< | gzip -9 -c -n > $@
+
+$(LANG1)_$(VAR2).automorf.att.gz: $(LANG1)_$(VAR2).automorf.bin
+	lt-print $< | gzip -9 -c -n > $@
 
 ###############################################################################
 ## Disambiguation rules
@@ -49,7 +69,8 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 ###############################################################################
 ## Distribution
 ###############################################################################
-EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
+EXTRA_DIST=$(BASENAME).$(LANG1)_$(VAR1).dix		\
+		$(BASENAME).$(LANG1)_$(VAR2).dix	\
 		$(BASENAME).$(LANG1).acx	\
 		$(BASENAME).$(LANG1).rlx	\
 		$(BASENAME).post-$(LANG1).dix	\
@@ -81,9 +102,9 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_pan_srcdir) || mkdir -p $(DESTDIR)$(apertium_pan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_pan_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1)_$(VAR1).dix $(DESTDIR)$(apertium_pan_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1)_$(VAR2).dix $(DESTDIR)$(apertium_pan_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_pan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_pan_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
