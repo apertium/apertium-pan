@@ -1055,7 +1055,7 @@
   <!-- Second Person -->
     <e lm="ਤੇਰਾ"><i>ਤੇਰ</i><par n="ਤੇਰ/ਾ__prn"/></e>
     <e lm="ਤੁਹਾਡਾ"><i>ਤੁਹਾਡ</i><par n="ਤੇਰ/ਾ__prn"/></e>
-    <e lm="ਤੁਹਾਡੀ"><i>ਤੁਹਾਡ</i><par n="ਤੇਰ/ੀ__prn"/></e>
+    <e lm="ਤੁਹਾਡੀ"><i>ਤੁਹਾਡ</i><par n="ਤੇਰ/ਾ__prn"/></e>
 
   <!-- Third Person -->
     <e lm="ਉਹ"><i>ਉ</i><par n="ਉ/__prn"/></e>
