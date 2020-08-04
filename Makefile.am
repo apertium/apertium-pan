@@ -14,6 +14,7 @@ TARGETS_COMMON =			\
 	$(LANG1)_$(VAR1).automorf.att.gz	\
 	$(LANG1)_$(VAR1).autogen.bin		\
 	$(LANG1)_$(VAR1).autogen.att.gz		\
+	$(LANG1)_$(VAR1).prob		\
 	$(LANG1)_$(VAR2).automorf.bin		\
 	$(LANG1)_$(VAR2).automorf.att.gz	\
 	$(LANG1)_$(VAR2).autogen.bin		\
@@ -65,6 +66,9 @@ $(LANG1)_$(VAR2).automorf.att.gz: $(LANG1)_$(VAR2).automorf.bin
 
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 	$(CGCOMP) $< $@
+
+$(LANG1)_$(VAR1).prob: $(BASENAME).$(LANG1)_$(VAR1).tagged
+	apertium-tagger -s 0 -u 2 $@ $<
 
 ###############################################################################
 ## Distribution
