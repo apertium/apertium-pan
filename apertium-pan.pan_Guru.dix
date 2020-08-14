@@ -183,6 +183,10 @@
       <e>     <p><l>ਬੀ</l><r>ਬੀ<s n="abbr"/></r></p></e>
       <e>     <p><l>ਬੀ.</l><r>ਬੀ.<s n="abbr"/></r></p></e>
 
+      <!-- L -->
+      <e>     <p><l>ਐਲ</l><r>ਐਲ<s n="abbr"/></r></p></e>
+      <e>     <p><l>ਐਲ.</l><r>ਐਲ.<s n="abbr"/></r></p></e>
+
       <!-- M -->
       <e>     <p><l>ਐਮ</l><r>ਐਮ<s n="abbr"/></r></p></e>
       <e>     <p><l>ਐਮ.</l><r>ਐਮ.<s n="abbr"/></r></p></e>
@@ -190,6 +194,10 @@
       <!-- N -->
       <e>     <p><l>ਐਨ</l><r>ਐਨ<s n="abbr"/></r></p></e>
       <e>     <p><l>ਐਨ.</l><r>ਐਨ.<s n="abbr"/></r></p></e>
+
+      <!-- O -->
+      <e>     <p><l>ਓ</l><r>ਓ<s n="abbr"/></r></p></e>
+      <e>     <p><l>ਓ.</l><r>ਓ.<s n="abbr"/></r></p></e>
 
       <!-- R -->
       <e>     <p><l>ਆਰ</l><r>ਆਰ<s n="abbr"/></r></p></e>
@@ -202,6 +210,10 @@
       <!-- T -->
       <e>     <p><l>ਟੀ</l><r>ਟੀ<s n="abbr"/></r></p></e>
       <e>     <p><l>ਟੀ.</l><r>ਟੀ.<s n="abbr"/></r></p></e>
+
+      <!-- U -->
+      <e>     <p><l>ਯੂ</l><r>ਯੂ<s n="abbr"/></r></p></e>
+      <e>     <p><l>ਯੂ.</l><r>ਯੂ.<s n="abbr"/></r></p></e>
 
       <!-- EESAA PURVI -->
       <!-- <e>     <p><l>ई पू</l><r>ई. पू.<s n="abbr"/></r></p></e>
@@ -241,6 +253,7 @@
     <!-- basic postpositions -->
     <pardef n="case">
       <e><p><l>ਨੂੰ</l><r>ਨੂੰ<s n="dat"/></r></p></e>
+      <e r="LR"><p><l>ਨੇਂ</l><r>ਨੇਂ<s n="erg"/></r></p></e>
       <e><p><l>ਨੇ</l><r>ਨੇ<s n="erg"/></r></p></e>
       <e><p><l>ਤੋਂ</l><r>ਤੋਂ<s n="abl"/></r></p></e>
       <e><p><l>ਵਿੱਚ</l><r>ਵਿੱਚ<s n="post"/></r></p></e>
@@ -384,16 +397,18 @@
     <pardef n="/ਮੈਂ__prn">
       <e><p><l>ਮੈਂ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ਮੈਂ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>ਮੈਨੂੰ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ਮੈਂਨੂੰ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ਸਾਨੂੰ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>ਥੋਂ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e r="LR"><p><l>ਮੈਨੂੰ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ਮੈਂਨੂੰ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="abl"/></r></p></e>
       <e><p><l>ਅਸੀਂ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ਅਸਾਂ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
       <e><p><l>ਮੇਰਾ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>ਮੇਰੇ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>ਮੇਰੀ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ਮੈਂਨੇ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="erg"/></r></p></e>
+      <e><p><l>ਮੈਂ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="erg"/></r></p></e>
       <e><p><l>ਮੇਰੇ ਵਿੱਚ</l><r>ਮੈਂ<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></r></p></e>
       <!-- <e><p><l>ੀਆਂ</l><r><s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e> -->
     </pardef>
@@ -484,7 +499,8 @@
       <e><p><l>ਹ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ਸ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>ਹ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ਹਨਾਂ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>ਹਨਾ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>ਹਨਾਂ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
       <e><p><l>ਨ੍ਹਾਂ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
       <e><p><l>ਹਨੂੰ</l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
     </pardef>
@@ -557,9 +573,9 @@
       <e><p><l>ਜਿਸਨੂੰ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
       <e r="LR"><p><l>ਜਿਸ ਨੂੰ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
       <e r="LR"><p><l>ਜਿਸਨੂੰ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e r="LR"><p><l>ਜਿਨ੍ਹਾਂ ਨੂੰ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ਜਿਨ੍ਹਾਂ ਨੂੰ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
       <!-- <e><p><l>जिन्हें</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e> -->
-      <e r="LR"><p><l>ਜਿਹਨਾਂ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>ਜਿਹਨਾਂ ਨੂੰ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>ਜਿਸਦੀ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>ਜਿਸਦੇ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>ਜਿਸਦਾ</l><r>ਜੋ<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -625,14 +641,16 @@
     </pardef>
 
     <pardef n="ਨਵ/ਾਂ__adj">
-      <e><p><l>ਾਂ</l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ੇਂ</l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ੀਂ</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ੀ</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ੇਂ</l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ੀਆਂ</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ੇਂ</l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
-      <e><p><l>ੀਆਂ</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ਾਂ</l><r>ਾਂ<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ਾਂ</l><r>ਾਂ<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ਾਂ</l><r>ਾਂ<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
+      <e><p><l>ੇਂ</l><r>ਾਂ<s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ੀਂ</l><r>ਾਂ<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ੀ</l><r>ਾਂ<s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ੇਂ</l><r>ਾਂ<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ੀਆਂ</l><r>ਾਂ<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ੇਂ</l><r>ਾਂ<s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ੀਆਂ</l><r>ਾਂ<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="ਅਜੀਬ__adj">
@@ -704,6 +722,13 @@
       <e><p><l/><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ਵਾਂ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ਡਾਕੀ/ਆ__n_m">
+      <e><p><l>ਆ</l><r>ਆ<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ਏ</l><r>ਆ<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ਏ</l><r>ਆ<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ਆਂ</l><r>ਆ<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="ਰਾਜ__n_m">
@@ -790,6 +815,10 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="int__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
 
   <!-- SECTION: Verbs -->     
 
@@ -821,7 +850,7 @@
       <e><p><l>ਣਵਾਲੀ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e><p><l>ਣੀ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
-      <e><p><l>ਣੇ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
+      <e><p><l>ਉਣ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਉਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ਵੇਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ਵੇਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -870,12 +899,15 @@
       <e><p><l>ਰਣਵਾਲੇ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਰਣਵਾਲੀ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ਰਣਵਾਲੀ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>ਰਨਾ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
-      <e><p><l>ਰਨੀ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
-      <e><p><l>ਰਨੇ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="mf"/></r></p></e>
+      <e><p><l>ਰਣਾ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>ਰਨਾ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
+      <e><p><l>ਰਣੀ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>ਰਨੀ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>ਰਨ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="mf"/></r></p></e>
+      <e><p><l>ਰਣ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="mf"/></r></p></e>
 
-      <e r="LR"><p><l>ਰਨ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
-      <e><p><l>ਰਣ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
+      <e r="LR"><p><l>ਰਨੇ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
+      <e><p><l>ਰਣੇ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਰਾਂ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ਰੇਂ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ਰੋ</l><r>ਰ<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -910,15 +942,17 @@
       <e><p><l>ਹੋਵੇਗੀ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ਹੋਵੇਗੀ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਹੋਵੇਗਾ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ਹੋਵੇਂਗੇ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ਹੋਣਗੇ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ਹੋਵੇਂਗੇ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਹੋਵੇਗੀ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ਹੋਵੇਂਗੀ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਹੋਣਵਾਲਾ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ਹੋਣਵਾ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ਹੋਣਵਾਲੇ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਹੋਣਵਾਲੀ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ਹੋਣਵਾਲੀ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਹੋਣਵਾਲੀਆਂ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਹੋਣਾ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e><p><l>ਹੋਣੀ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>ਹੋਣੇ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਹੋਣ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਹੋਵਾਂ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ਹੋਏ</l><r>ਹੋਣਾ<s n="vblex"/><s n="iv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -976,6 +1010,7 @@
       <e><p><l>ਹਨ</l><r>ਹੋ<s n="vbser"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <!-- <e><p><l>हैं</l><r>ਹੋ<s n="vbser"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> -->
 
+      <e r="LR"><p><l>ਹੇ</l><r>ਹੋ<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>ਹੈ</l><r>ਹੋ<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>ਹੋ</l><r>ਹੋ<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
@@ -1085,7 +1120,7 @@
       <e><p><l>ਣਵਾਲਾ</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ਣਵਾਲੇ</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਣਵਾਲੀ</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ਣਵਾਲੀ</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਣਵਾਲੀਆਂ</l><r><s n="vblex"/><s n="iv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e><p><l>ਣੀ</l><r><s n="vblex"/><s n="iv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
       <e r="LR"><p><l>ਣ</l><r><s n="vblex"/><s n="iv"/><s n="inf"/><s n="obl"/></r></p></e>
@@ -1108,7 +1143,7 @@
       <e><p><l>ਂਦਾ</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ਂਦੇ</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਂਦੀ</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ਂਦੀ</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਂਦੀਆਂ</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ਕਰ</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
@@ -1172,6 +1207,7 @@
       <e><p><l>ਜਾਂਦੀਆਂ</l><r>ਜਾ<s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਜਾਕਰ</l><r>ਜਾ<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e r="LR"><p><l>ਜਾਕਰ</l><r>ਜਾ<s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
+      <e r="LR"><p><l>ਗਇਆ</l><r>ਜਾ<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ਗਿਆ</l><r>ਜਾ<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ਗਏ</l><r>ਜਾ<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਗਏ</l><r>ਜਾ<s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1218,10 +1254,10 @@
       <e><p><l>ਦੀ</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਕਰ</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e r="LR"><p><l>ਕੇ</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
-      <e><p><l>ਾ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ਿਆ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ੇ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ੀ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ੀ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ੀਆਂ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="ਬੋਲ__vblex_tv">
@@ -1235,15 +1271,17 @@
       <e><p><l>ੇਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ੋਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ੇਗਾ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ੇਂਗੇ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ਣਗੇ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ੇਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ੇਂਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਣਗੀਆਂ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਣਵਾਲਾ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ਰਣਵਾਲੇ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਰਣਵਾਲੀ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ਰਣਵਾਲੀ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e>
       <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
-      <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e><p><l>ਣੀ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>ਨ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਣ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ੂੰ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ੇਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -1259,13 +1297,58 @@
       <e><p><l>ਦਾ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ਦੇ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਦੀ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ਦੀ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਦੀਆਂ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਕਰ</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e r="LR"><p><l>ਕੇ</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
       <e><p><l>ਿਆ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ੇ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ੀ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ੀਆਂ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ਚਾਹ__vblex_tv">
+      <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
+      <e><p><l>ਾਂਗਾ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ਾਂਗੇ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ਾਂਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ਾਂਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ੇਗਾ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ੋਗੇ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ੇਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ੋਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ੇਗਾ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ਣਗੇ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ੇਗੀ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ਣਗੀਆਂ</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਣਵਾਲਾ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ਰਣਵਾਲੇ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ਰਣਵਾਲੀ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ਰਣਵਾਲੀ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e>
+      <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
+      <e><p><l>ਣੀ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e><p><l>ਣ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
+      <e><p><l>ੂੰ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ੇਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ੇ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ੋ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ੇ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ੇਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ਿਏ</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e><p><l>ਿਏ</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
+      <e><p><l>ੋ</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ੋ</l><r><s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ੁੰਦਾ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ੁੰਦੇ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ੁੰਦੀ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ੁੰਦੀਆਂ</l><r><s n="vblex"/><s n="tv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਕਰ</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e r="LR"><p><l>ਕੇ</l><r><s n="vblex"/><s n="tv"/><s n="gna"/></r></p></e>
+      <e><p><l>ਿਆ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ੇ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ੀ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ੀਂ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="ਲਮਕਾ__vblex_tv">
@@ -1287,7 +1370,8 @@
       <e><p><l>ਉਣਵਾਲੀ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ਉਣਵਾਲੀਆਂ</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
-      <e><p><l>ਣਾ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e><p><l>ਣੀ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>ਣ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਉਣ</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਵਾਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ਵੇਂ</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -1314,7 +1398,7 @@
 
     <pardef n="ਕ/ਹ__vblex_tv">
       <e><p><l>ਹ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
-      <e r="LR"><p><l>ਿਹ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
+      <e r="LR"><p><l>ਹਿ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="stem"/></r></p></e>
       <e><p><l>ਹਾਂਗਾ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ਹਾਂਗੇ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਹਾਂਗੀ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1331,8 +1415,10 @@
       <e><p><l>ਹਰਣਵਾਲੇ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਹਣਵਾਲੀ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ਹਣਵਾਲੀਆਂ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ਹਿਣਾ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e><p><l>ਹਣਾ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e><p><l>ਹਣਾ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>ਹਿਣ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਹਿੰਣ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
       <e><p><l>ਹੂੰ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ਹੇਂ</l><r>ਹ<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -1385,6 +1471,7 @@
       <e><p><l>ੇਂ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ੈ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e><p><l>ੋ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ਓ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ੋ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ੈਂਦਾ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ੈਂਦੇ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="impf"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1395,8 +1482,8 @@
       <e><p><l>ਿਆ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ਿਏ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਏ</l><r>ੈ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ੀ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ੀ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਈ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ਈਆਂ</l><r><s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="/ਦੇ__vblex_tv">
@@ -1441,7 +1528,7 @@
       <e><p><l>ਦਿੱਤੇ</l><r>ਦੇ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>ਦਿੱਤੇ</l><r>ਦੇ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ਦਿੱਤੀ</l><r>ਦੇ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ਦਿੱਤੀ</l><r>ਦੇ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ਦਿੱਤੀਆਂ</l><r>ਦੇ<s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	</pardef>
 
     <pardef n="/ਰਹ__vaux_iv">
@@ -1523,6 +1610,7 @@
       <e><p><l>ਦੀ</l><r><s n="vblex"/><s n="iv"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ਕਰ</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
       <e r="LR"><p><l>ਕੇ</l><r><s n="vblex"/><s n="iv"/><s n="gna"/></r></p></e>
+      <e r="LR"><p><l>ਾ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ਿਆ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ੇ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ੀ</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1717,7 +1805,7 @@
     <e lm="ਲॉਰੇਂਸ"><i>ਲॉਰੇਂਸ</i><par n="ਜੇਮਜ਼__np"/></e>
     <e lm="ਡੇਲਾਵੇਯਰ"><i>ਡੇਲਾਵੇਯਰ</i><par n="ਜੇਮਜ਼__np"/></e>
     <e lm="ਟੋਕ੍ਯੋ"><i>ਟੋਕ੍ਯੋ</i><par n="ਜੇਮਜ਼__np"/></e>
-    <e lm="����ੁਮਾਯੂਁ"><i>ਹੁਮਾਯੂਁ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਹੁਮਾਯੂਁ"><i>ਹੁਮਾਯੂਁ</i><par n="ਜੇਮਜ਼__np"/></e>
     <e lm="ਹਿਟਲਰ"><i>ਹਿਟਲਰ</i><par n="ਜੇਮਜ਼__np"/></e>
     <e lm="ਸਾਲਿਹ"><i>ਸਾਲਿਹ</i><par n="ਜੇਮਜ਼__np"/></e>
     <e lm="ਖ਼ੈਲ"><i>ਖ਼ੈਲ</i><par n="ਜੇਮਜ਼__np"/></e>
@@ -2057,6 +2145,18 @@
     <e lm="ਅਹਿਮਦ"><i>ਅਹਿਮਦ</i><par n="ਜੇਮਜ਼__np"/></e>
     <e lm="ਐਡਵਰਡ"><i>ਐਡਵਰਡ</i><par n="ਜੇਮਜ਼__np"/></e>
     <e lm="ਸਾਰਾਂਸ਼"><i>ਸਾਰਾਂਸ਼</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਵਿਲੀਅਮ"><i>ਵਿਲੀਅਮ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਚਾਰਲਸ"><i>ਚਾਰਲਸ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਰਾਮਾਨੁਜਨ"><i>ਰਾਮਾਨੁਜਨ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਜਾਰਜ"><i>ਜਾਰਜ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਗ੍ਰੈਗਰੀ"><i>ਗ੍ਰੈਗਰੀ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਸੱਯਦ"><i>ਸੱਯਦ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਹਰਮਨ"><i>ਹਰਮਨ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਫ਼ਰੀਦ"><i>ਫ਼ਰੀਦ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਚੰਦਰ"><i>ਚੰਦਰ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਕਾਰਲ"><i>ਕਾਰਲ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਟੇਰੈਂਸ"><i>ਟੇਰੈਂਸ</i><par n="ਜੇਮਜ਼__np"/></e>
+    <e lm="ਹਰਿਭਜਨ"><i>ਹਰਿਭਜਨ</i><par n="ਜੇਮਜ਼__np"/></e>
 
     <e lm="ਜੋਧਾ"><i>ਜੋਧਾ</i><par n="ਮੈਰੀ__np"/></e>
     <e lm="ਕੈਕੇਯੀ"><i>ਕੈਕੇਯੀ</i><par n="ਮੈਰੀ__np"/></e>
@@ -2089,6 +2189,7 @@
     <e lm="ਆਈਸ਼ਾ"><i>ਆਈਸ਼ਾ</i><par n="ਮੈਰੀ__np"/></e>
     <e lm="ਮਿਸ਼ੇਲ"><i>ਮਿਸ਼ੇਲ</i><par n="ਮੈਰੀ__np"/></e>
     <e lm="ਜ਼ੋਹਰਾ"><i>ਜ਼ੋਹਰਾ</i><par n="ਮੈਰੀ__np"/></e>
+    <e lm="ਸਟੈੱਲਾ"><i>ਸਟੈੱਲਾ</i><par n="ਮੈਰੀ__np"/></e>
 
     <e lm="ਕੁਮਾਰ"><i>ਕੁਮਾਰ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
     <e lm="ਕਪੂਰ"><i>ਕਪੂਰ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
@@ -2166,6 +2267,14 @@
     <e lm="ਖਾਨ"><i>ਖਾਨ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
     <e lm="ਨਿਊਟਨ"><i>ਨਿਊਟਨ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
     <e lm="ਸ਼੍ਰੋਡਿੰਜਰ"><i>ਸ਼੍ਰੋਡਿੰਜਰ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਪਲੈਂਕ"><i>ਪਲੈਂਕ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਸ਼ਰਮਾ"><i>ਸ਼ਰਮਾ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਸੰਧੂ"><i>ਸੰਧੂ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਮੈਕਸਵੈੱਲ"><i>ਮੈਕਸਵੈੱਲ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਸ਼ਵਾਰਜ਼ਚਿਲਡ"><i>ਸ਼ਵਾਰਜ਼ਚਿਲਡ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਨਹਿਰੂ"><i>ਨਹਿਰੂ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਰਾਓ"><i>ਰਾਓ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
+    <e lm="ਗਿੱਲ"><i>ਗਿੱਲ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
 
     <e lm="ਕੌਰ"><i>ਕੌਰ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
     <e lm="ਸ਼ਾਹ"><i>ਸ਼ਾਹ</i><par n="ਮੋਟਲਾਨੀ__np"/></e>
@@ -2182,6 +2291,9 @@
 
     <e lm="ਮੋਜਿਲ੍ਲਾ"><i>ਮੋਜਿਲ੍ਲਾ</i><par n="ਟਾਟਾ__np"/></e>
     <e lm="ਟਾਟਾ"><i>ਟਾਟਾ</i><par n="ਟਾਟਾ__np"/></e>
+    <e lm="ਬਾਲੀਵੁੱਡ"><i>ਬਾਲੀਵੁੱਡ</i><par n="ਟਾਟਾ__np"/></e>
+    <e lm="ਸ਼੍ਰੋਮਣੀ"><i>ਸ਼੍ਰੋਮਣੀ</i><par n="ਟਾਟਾ__np"/></e>
+    <e lm="ਇਸਪੇਰਾਨਤੋ"><i>ਇਸਪੇਰਾਨਤੋ</i><par n="ਟਾਟਾ__np"/></e>
 
     <e lm="ਉਤ੍ਤਰ"><i>ਉਤ੍ਤਰ</i><par n="ਉਤ੍ਤਰ__np"/></e>
     <e lm="ਦਕ੍ਸ਼ਿਣ"><i>ਦਕ੍ਸ਼ਿਣ</i><par n="ਉਤ੍ਤਰ__np"/></e>
@@ -2429,6 +2541,28 @@
     <e lm="ਚੰਡੀਗੜ੍ਹ"><i>ਚੰਡੀਗੜ੍ਹ</i><par n="ਭਾਰਤ__np"/></e>
     <e lm="ਮਾਨਸਾ"><i>ਮਾਨਸਾ</i><par n="ਭਾਰਤ__np"/></e>
     <e lm="ਰਾਜਸਥਾਨ"><i>ਰਾਜਸਥਾਨ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਹੁਸ਼ਿਆਰਪੁਰ"><i>ਹੁਸ਼ਿਆਰਪੁਰ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਬੰਗਲਾਦੇਸ਼"><i>ਬੰਗਲਾਦੇਸ਼</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਸੰਗਰੂਰ"><i>ਸੰਗਰੂਰ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਆਸਟਰੇਲੀਆ"><i>ਆਸਟਰੇਲੀਆ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਜਪਾਨ"><i>ਜਪਾਨ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਅਫ਼ਰੀਕਾ"><i>ਅਫ਼ਰੀਕਾ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਬਰਤਾਨੀਆ"><i>ਬਰਤਾਨੀਆ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਮਹਾਰਾਸ਼ਟਰ"><i>ਮਹਾਰਾਸ਼ਟਰ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਲਹੌਰ"><i>ਲਹੌਰ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਬਰਨਾਲਾ"><i>ਬਰਨਾਲਾ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਆਸਟ੍ਰੇਲੀਆ"><i>ਆਸਟ੍ਰੇਲੀਆ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਫਰੀਦਕੋਟ"><i>ਫਰੀਦਕੋਟ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਜਮੁਨਾ"><i>ਜਮੁਨਾ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਹਿਮਾਚਲ"><i>ਹਿਮਾਚਲ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਕਪੂਰਥਲਾ"><i>ਕਪੂਰਥਲਾ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਨਾਭਾ"><i>ਨਾਭਾ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਆਂਧਰਾ"><i>ਆਂਧਰਾ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਜੰਮੂ"><i>ਜੰਮੂ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਈਰਾਨ"><i>ਈਰਾਨ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਮਦਰਾਸ"><i>ਮਦਰਾਸ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਫ਼ਤਹਿਗੜ੍ਹ"><i>ਫ਼ਤਹਿਗੜ੍ਹ</i><par n="ਭਾਰਤ__np"/></e>
+    <e lm="ਇਰਾਕ"><i>ਇਰਾਕ</i><par n="ਭਾਰਤ__np"/></e>
 
 
    <!-- SECTION: Conjunctions -->
@@ -2473,6 +2607,8 @@
     <e lm="ਇਸਲਈ"><i>ਇਸਲਈ</i><par n="ਕਿਉਂਕਿ__cnjadv"/></e>
     <e lm="ਜਦੋਂਕਿ"><i>ਜਦੋਂਕਿ</i><par n="ਕਿਉਂਕਿ__cnjadv"/></e>
     <e lm="ਜਦੋਂ ਕਿ"><i>ਜਦੋਂ<b/>ਕਿ</i><par n="ਕਿਉਂਕਿ__cnjadv"/></e>
+    <e lm="ਜਦਕਿ"><i>ਜਦਕਿ</i><par n="ਕਿਉਂਕਿ__cnjadv"/></e>
+    <e lm="ਯਾਨੀ ਕਿ"><i>ਯਾਨੀ<b/>ਕਿ</i><par n="ਕਿਉਂਕਿ__cnjadv"/></e>
     
 
     <!-- Adverbial Conjunctions -->
@@ -2508,12 +2644,19 @@
     <e lm="ਮੀ"><i></i><par n="__abbr"/></e>
     <e lm="ਸ."><i></i><par n="__abbr"/></e>
     <e lm="ਸ"><i></i><par n="__abbr"/></e>
+    <e lm="ਓ."><i></i><par n="__abbr"/></e>
+    <e lm="ਓ"><i></i><par n="__abbr"/></e>
+    <e lm="ਯੂ."><i></i><par n="__abbr"/></e>
+    <e lm="ਯੂ"><i></i><par n="__abbr"/></e>
+    <e lm="ਐਲ."><i></i><par n="__abbr"/></e>
+    <e lm="ਐਲ"><i></i><par n="__abbr"/></e>
 
     <!-- SECTION: Postpositions -->
 
     <e lm="ਦਾ"><i></i><par n="__gen_endings"/></e>  <!-- genitive -->
     <e lm="ਤੋਂ"><i>ਤੋਂ</i><par n="ਪਰ__post"/></e>      <!-- ablative -->
     <e lm="ਤੋ"><i>ਤੋ</i><par n="ਪਰ__post"/></e>      <!-- ablative -->
+    <e lm="ਸੇ"><i>ਸੇ</i><par n="ਪਰ__post"/></e>      <!-- ablative -->
     <e lm="ਨੇ"><i>ਨੇ</i><par n="ਪਰ__post"/></e>      <!-- ergative -->
     <e lm="ਨਾਲ"><i>ਨਾਲ</i><par n="ਪਰ__post"/></e>   <!-- comitative -->
     <e lm="ਨਾਲ਼"><i>ਨਾਲ਼</i><par n="ਪਰ__post"/></e>   <!-- comitative -->
@@ -2523,7 +2666,9 @@
 
    <!-- locative -->
     <e lm="ਵਿੱਚ"><i>ਵਿੱਚ</i><par n="ਪਰ__post"/></e>   <!-- inessive -->
+    <e lm="ਮੇਂ"><i>ਮੇਂ</i><par n="ਪਰ__post"/></e>   <!-- inessive -->
     <e lm="ਵਿੱਚੋਂ"><i>ਵਿੱਚੋਂ</i><par n="ਪਰ__post"/></e>   <!-- ablative -->
+    <e lm="ਚੋਂ"><i>ਚੋਂ</i><par n="ਪਰ__post"/></e>   <!-- ablative -->
     <e lm="ਵਿਚ"><i>ਵਿਚ</i><par n="ਪਰ__post"/></e>
     <e lm="ਵਿਚੋਂ"><i>ਵਿਚੋਂ</i><par n="ਪਰ__post"/></e>
     <e lm="ਵਿਚੋ"><i>ਵਿਚੋ</i><par n="ਪਰ__post"/></e>
@@ -2533,6 +2678,7 @@
     <e lm="ਉੱਤੋਂ"><i>ਉੱਤੋਂ</i><par n="ਪਰ__post"/></e>   <!-- ablative -->
     <e lm="ਤੇ"><i>ਤੇ</i><par n="ਪਰ__post"/></e>
     <e lm="'ਤੇ"><i>'ਤੇ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਉਤੇ"><i>ਉਤੇ</i><par n="ਪਰ__post"/></e>
     <e lm="ਉੱਪਰ"><i>ਉੱਪਰ</i><par n="ਪਰ__post"/></e>
     <e lm="ਉੱਪਰੋਂ"><i>ਉੱਪਰੋਂ</i><par n="ਪਰ__post"/></e>
     <e lm="ਨੀਚੇ"><i>ਨੀਚੇ</i><par n="ਪਰ__post"/></e>
@@ -2541,6 +2687,7 @@
     <e lm="ਅੱਗੋਂ"><i>ਅੱਗੋਂ</i><par n="ਪਰ__post"/></e>   <!-- ablative -->
     <e lm="ਅਗੋਂ"><i>ਅਗੋਂ</i><par n="ਪਰ__post"/></e>   <!-- ablative/alternate spelling -->
     <e lm="ਪਿੱਛੇ"><i>ਪਿੱਛੇ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਪਿੱਛੋਂ"><i>ਪਿੱਛੋਂ</i><par n="ਪਰ__post"/></e>
     <e lm="ਕੋਲ"><i>ਕੋਲ</i><par n="ਪਰ__post"/></e>
     <e lm="ਕੋਲੋਂ"><i>ਕੋਲੋਂ</i><par n="ਪਰ__post"/></e>   <!-- ablative -->
     <e lm="ਬਾਹਰ"><i>ਬਾਹਰ</i><par n="ਪਰ__post"/></e>
@@ -2577,11 +2724,19 @@
     <e lm="ਤਰ੍ਹਾਂ"><i>ਤਰ੍ਹਾਂ</i><par n="ਪਰ__post"/></e>   <!-- comparative -->
     <e lm="ਵਾਂਗ"><i>ਵਾਂਗ</i><par n="ਪਰ__post"/></e>   <!-- comparative -->
     <e lm="ਨਾਲੋਂ"><i>ਨਾਲੋਂ</i><par n="ਪਰ__post"/></e>   <!-- comparative -->
+    <e lm="ਨਾਲ਼ੋਂ"><i>ਨਾਲ਼ੋਂ</i><par n="ਪਰ__post"/></e>   <!-- comparative -->
     <e lm="ਤੌਰ ਤੇ"><i>ਤੌਰ<b/>ਤੇ</i><par n="ਪਰ__post"/></e>
     <e lm="ਪ੍ਰਤਿ"><i>ਪ੍ਰਤਿ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਗੁਣਾ"><i>ਗੁਣਾ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਨੇਂ"><i>ਨੇਂ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਖਿਲਾਫ"><i>ਖਿਲਾਫ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਖ਼ਿਲਾਫ਼"><i>ਖ਼ਿਲਾਫ਼</i><par n="ਪਰ__post"/></e>
+    <e lm="ਉਪਰੰਤ"><i>ਉਪਰੰਤ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਪੱਖੋਂ"><i>ਪੱਖੋਂ</i><par n="ਪਰ__post"/></e>
 
     <e lm="ਆਫ਼"><i>ਆਫ਼</i><par n="ਪਰ__post"/></e>
     <e lm="ਆਫ"><i>ਆਫ</i><par n="ਪਰ__post"/></e>
+    <e lm="ਔਫ"><i>ਔਫ</i><par n="ਪਰ__post"/></e>
 
 <!-- SECTION: Determiners -->
 
@@ -2612,6 +2767,7 @@
     <e lm="ਅਪ"><i>ਅ</i><par n="ਆ/ਪ__prn"/></e>
     <e lm="ਅਸੀਂ"><i></i><par n="/ਅਸੀਂ__prn"/></e>
     <e lm="ਖੁਦ"><i>ਖੁਦ</i><par n="ਸਭ__prn"/></e>
+    <e lm="ਖ਼ੁਦ"><i>ਖ਼ੁਦ</i><par n="ਸਭ__prn"/></e>
 
 
   <!-- Second Person -->
@@ -2641,6 +2797,8 @@
     <e lm="ਪਹਿਲਾ"><i>ਪਹਿਲ</i><par n="ਪਹਿਲਾ__ord"/></e>
     <e lm="ਪਹਲਾ"><i>ਪਹਲ</i><par n="ਪਹਿਲਾ__ord"/></e>
     <e lm="ਦੋ"><i>ਦੋ</i><par n="ਤਿੰਨ__num"/></e>
+    <e lm="ਟੂ"><i>ਟੂ</i><par n="ਤਿੰਨ__num"/></e>
+    <e lm="ਦੋਨਾਂ"><i>ਦੋਨ</i><par n="ਹਜ਼ਾਰਵਾਂ__ord"/></e>
     <e lm="ਦੂਜਾ"><i>ਦੂਜ</i><par n="ਪਹਿਲਾ__ord"/></e>
     <e lm="ਤਿੰਨ"><i>ਤਿੰਨ</i><par n="ਤਿੰਨ__num"/></e>
     <e lm="ਤੀਜਾ"><i>ਤੀਜ</i><par n="ਪਹਿਲਾ__ord"/></e>
@@ -2713,6 +2871,7 @@
     <e lm="ਤਰੇਠ੍ਹ"><i>ਤਰੇਠ੍ਹ</i><par n="ਸੱਤ__num"/></e>
     <e lm="ਚੌਠ੍ਹ"><i>ਚੌਠ੍ਹ</i><par n="ਸੱਤ__num"/></e>
     <e lm="ਪੈਂਠ"><i>ਪੈਂਠ</i><par n="ਸੱਤ__num"/></e>
+    <e lm="ਪੈਂਹਠ"><i>ਪੈਂਹਠ</i><par n="ਸੱਤ__num"/></e>
     <e lm="ਛਿਆਠ"><i>ਛਿਆਠ</i><par n="ਸੱਤ__num"/></e>
     <e lm="ਸਤਾਹਠ"><i>ਸਤਾਹਠ</i><par n="ਸੱਤ__num"/></e>
     <e lm="ਅੱਠਾਠ"><i>ਅੱਠਾਠ</i><par n="ਸੱਤ__num"/></e>
@@ -2765,7 +2924,6 @@
     <e lm="ਗੱਲ"><i>ਗੱਲ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਜ਼ੁਬਾਨ"><i>ਜ਼ੁਬਾਨ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਖੇਹ"><i>ਖੇਹ</i><par n="ਬਾਤ__n_f"/></e>
-    <e lm="ਪਛਾਣ"><i>ਪਛਾਣ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਆਦਤ"><i>ਆਦਤ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਪੁਸਤਕ"><i>ਪੁਸਤਕ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਫਿਤਰਤ"><i>ਫਿਤਰਤ</i><par n="ਬਾਤ__n_f"/></e>
@@ -3130,6 +3288,7 @@
     <e lm="ਤਹਿਕੀਕਾਤ"><i>ਤਹਿਕੀਕਾਤ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਭਾਲ"><i>ਭਾਲ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਟਂਗ"><i>ਟਂਗ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਟੰਗ"><i>ਟੰਗ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਤੁਹਮਤ"><i>ਤੁਹਮਤ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਤੋਹਮਤ"><i>ਤੋਹਮਤ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਖੁਦ੍ਦੋ"><i>ਖੁਦ੍ਦੋ</i><par n="ਬਾਤ__n_f"/></e>
@@ -3360,6 +3519,7 @@
     <e lm="ਸਿਕ੍ਖਿਆ"><i>ਸਿਕ੍ਖਿਆ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਬੀਨ"><i>ਬੀਨ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਗਲ"><i>ਗਲ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਗੱਲ"><i>ਗੱਲ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਗਲ੍ਲ"><i>ਗਲ੍ਲ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਗਲ੍ਲ"><i>ਗਲ੍ਲ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਗਲ੍ਲ"><i>ਗਲ੍ਲ</i><par n="ਬਾਤ__n_f"/></e>
@@ -3478,6 +3638,33 @@
     <e lm="ਨਸੀਹਤ"><i>ਨਸੀਹਤ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਤੋਂਦ"><i>ਤੋਂਦ</i><par n="ਬਾਤ__n_f"/></e>
     <e lm="ਬਹਾਰ"><i>ਬਹਾਰ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਚੀਜ਼"><i>ਚੀਜ਼</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਐਲਬਮ"><i>ਐਲਬਮ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਲਾਈਨ"><i>ਲਾਈਨ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਚੈਂਪੀਅਨਸ਼ਿਪ"><i>ਚੈਂਪੀਅਨਸ਼ਿਪ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਟ੍ਰਾਂਸਫੋਰਮੇਸ਼ਨ"><i>ਟ੍ਰਾਂਸਫੋਰਮੇਸ਼ਨ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਸਾਹ"><i>ਸਾਹ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਮੈਗਜ਼ੀਨ"><i>ਮੈਗਜ਼ੀਨ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਨੀਂਹ"><i>ਨੀਂਹ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਮੁਹਿੰਮ"><i>ਮੁਹਿੰਮ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਜੇਲ੍ਹ"><i>ਜੇਲ੍ਹ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਵਸਤ"><i>ਵਸਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਨੋਟ"><i>ਨੋਟ</i><par n="ਬਾਤ__n_f"/></e> <!-- ਸ plural -->
+    <e lm="ਔਰਬਿਟਲ"><i>ਔਰਬਿਟਲ</i><par n="ਬਾਤ__n_f"/></e> <!-- ਸ plural -->
+    <e lm="ਵੀਡੀਓ"><i>ਵੀਡੀਓ</i><par n="ਬਾਤ__n_f"/></e> <!-- ਸ plural -->
+    <e lm="ਪ੍ਰਾੱਪ"><i>ਪ੍ਰਾੱਪ</i><par n="ਬਾਤ__n_f"/></e> <!-- ਸ plural -->
+    <e lm="ਤਕਨੀਕ"><i>ਤਕਨੀਕ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਪੇਸ਼ਕਸ਼"><i>ਪੇਸ਼ਕਸ਼</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਮਸ਼ੀਨ"><i>ਮਸ਼ੀਨ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਕਿਰਤ"><i>ਕਿਰਤ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਮਿਸਲ"><i>ਮਿਸਲ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਸਰਹੱਦ"><i>ਸਰਹੱਦ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਗੇਂਦ"><i>ਗੇਂਦ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਰੇਂਜ"><i>ਰੇਂਜ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਸ਼ਕਲ"><i>ਸ਼ਕਲ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਸ਼ਾਮ"><i>ਸ਼ਾਮ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਦੌੜ"><i>ਦੌੜ</i><par n="ਬਾਤ__n_f"/></e>
+    <e lm="ਟ੍ਰਾਂਸਮਿਸ਼ਨ"><i>ਟ੍ਰਾਂਸਮਿਸ਼ਨ</i><par n="ਬਾਤ__n_f"/></e>
 
     <e lm="ਬੋਲੀ"><i>ਬੋਲੀ</i><par n="ਨਦੀ__n_f"/></e>
     <e lm="ਮਿੱਟੀ"><i>ਮਿੱਟੀ</i><par n="ਨਦੀ__n_f"/></e>
@@ -4331,6 +4518,40 @@
     <e lm="ਟੀਸੀ"><i>ਟੀਸੀ</i><par n="ਨਦੀ__n_f"/></e>
     <e lm="ਗਲਫ਼ਰੋਸ਼ੀ"><i>ਗਲਫ਼ਰੋਸ਼ੀ</i><par n="ਨਦੀ__n_f"/></e>
     <e lm="ਠੂਠੀ"><i>ਠੂਠੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਜ਼ਿੰਮੇਵਾਰੀ"><i>ਜ਼ਿੰਮੇਵਾਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਪੱਤਰੀ"><i>ਪੱਤਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਵਸਤੂ"><i>ਵਸਤੂ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਵਸਤੁ"><i>ਵਸਤੁ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਕਮੀ"><i>ਕਮੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਬਾਣੀ"><i>ਬਾਣੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਹਾਕੀ"><i>ਹਾਕੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਜਿੰਦਗੀ"><i>ਜਿੰਦਗੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਗਤੀਵਿਧੀ"><i>ਗਤੀਵਿਧੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਅਜ਼ਾਦੀ"><i>ਅਜ਼ਾਦੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਡਿਗਰੀ"><i>ਡਿਗਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਸ਼ਾਇਰੀ"><i>ਸ਼ਾਇਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਪੰਛੀ"><i>ਪੰਛੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਸੁਸਾਇਟੀ"><i>ਸੁਸਾਇਟੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਉਤਪਤੀ"><i>ਉਤਪਤੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਦ੍ਰਿਸ਼ਟੀ"><i>ਦ੍ਰਿਸ਼ਟੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਨੀਤੀ"><i>ਨੀਤੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਸੰਸਕ੍ਰਿਤੀ"><i>ਸੰਸਕ੍ਰਿਤੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਚਮੜੀ"><i>ਚਮੜੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਲਾਇਬ੍ਰੇਰੀ"><i>ਲਾਇਬ੍ਰੇਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਭੂਮੀ"><i>ਭੂਮੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਸ਼ਤਾਬਦੀ"><i>ਸ਼ਤਾਬਦੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਦਵਾਈ"><i>ਦਵਾਈ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਬ੍ਰੋਗਲੀ"><i>ਬ੍ਰੋਗਲੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਪ੍ਰਸਤੁਤੀ"><i>ਪ੍ਰਸਤੁਤੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਉੱਚਾਈ"><i>ਉੱਚਾਈ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਉਚਾਈ"><i>ਉਚਾਈ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਵਿਲੌਸਟੀ"><i>ਵਿਲੌਸਟੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਮੂਵੀ"><i>ਮੂਵੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਕਾਰਵਾਈ"><i>ਕਾਰਵਾਈ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਸਮਿੱਟਰੀ"><i>ਸਮਿੱਟਰੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਸ਼ਬਦਾਵਲੀ"><i>ਸ਼ਬਦਾਵਲੀ</i><par n="ਨਦੀ__n_f"/></e>
+    <e lm="ਤਰੰਗਲੰਬਾਈ"><i>ਤਰੰਗਲੰਬਾਈ</i><par n="ਨਦੀ__n_f"/></e>
+
     <!-- <e lm="ਸਾਡਾ"><i>ਸਾਡ</i><par n="ਸੂਬ/ਾ__n_m"/></e> #pronoun - check for error in Hindi dictionary -->
 
     <e lm="ਪੂਜਾ"><i>ਪੂਜਾ</i><par n="ਪੂਜਾ__n_f"/></e>
@@ -4383,6 +4604,23 @@
     <e lm="ਇੱਛਾ"><i>ਇੱਛਾ</i><par n="ਪੂਜਾ__n_f"/></e>
     <e lm="ਵਿਚਾਰਧਾਰਾ"><i>ਵਿਚਾਰਧਾਰਾ</i><par n="ਪੂਜਾ__n_f"/></e>
     <e lm="ਸਮਰੱਥਾ"><i>ਸਮਰੱਥਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਸੁਵਿਧਾ"><i>ਸੁਵਿਧਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਚਿੰਤਾ"><i>ਚਿੰਤਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਕਲਪਨਾ"><i>ਕਲਪਨਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਅਦਾ"><i>ਅਦਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਯੋਗਤਾ"><i>ਯੋਗਤਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਘੋਸ਼ਣਾ"><i>ਘੋਸ਼ਣਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਸਫਲਤਾ"><i>ਸਫਲਤਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਊਰਜਾ"><i>ਊਰਜਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਭਾਵਨਾ"><i>ਭਾਵਨਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਆਤਮਾ"><i>ਆਤਮਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਮਹੱਤਤਾ"><i>ਮਹੱਤਤਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਪ੍ਰੇਰਣਾ"><i>ਪ੍ਰੇਰਣਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਸੈਨਾ"><i>ਸੈਨਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਜਨਗਣਨਾ"><i>ਜਨਗਣਨਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਸੱਤਾ"><i>ਸੱਤਾ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਹੱਤਿਆ"><i>ਹੱਤਿਆ</i><par n="ਪੂਜਾ__n_f"/></e>
+    <e lm="ਗਾਇਕਾ"><i>ਗਾਇਕਾ</i><par n="ਪੂਜਾ__n_f"/></e>
 
     <e lm="ਰਾਜ"><i>ਰਾਜ</i><par n="ਰਾਜ__n_m"/></e>
     <e lm="ਨਾ"><i>ਨਾ</i><par n="ਰਾਜ__n_m"/></e>
@@ -5904,8 +6142,11 @@
     <e lm="ਜਗਿਰਦਾਰ"><i>ਜਗਿਰਦਾਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਗਰਾਮ"><i>ਗਰਾਮ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਗਾਂਵ"><i>ਗਾਂਵ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮੁੱਖ"><i>ਮੁੱਖ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮੁਖ"><i>ਮੁਖ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪੁਰ"><i>ਪੁਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪਿਂਡ"><i>ਪਿਂਡ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪਿੰਡ"><i>ਪਿੰਡ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਖਿਲ੍ਲਰ ਖਿਲਾਰ"><i>ਖਿਲ੍ਲਰ<b/>ਖਿਲਾਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਰੁਦਨ"><i>ਰੁਦਨ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਸਾਹਿਤਕਾਰ"><i>ਸਾਹਿਤਕਾਰ</i><par n="ਰਂਗ__n_m"/></e>
@@ -6077,6 +6318,7 @@
     <e lm="ਮੁਖਾਰਬਿਂਦ"><i>ਮੁਖਾਰਬਿਂਦ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਵਾਤ"><i>ਵਾਤ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਮੁਂਹ"><i>ਮੁਂਹ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮੂੰਹ"><i>ਮੂੰਹ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਬੀਜ"><i>ਬੀਜ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਮਾਖ਼ਜ਼"><i>ਮਾਖ਼ਜ਼</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਮੁਡ੍ਢ"><i>ਮੁਡ੍ਢ</i><par n="ਰਂਗ__n_m"/></e>
@@ -6808,7 +7050,7 @@
     <e lm="ਭਾਈਵਾਲ"><i>ਭਾਈਵਾਲ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਭਿਆਲ"><i>ਭਿਆਲ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਹਿਸ੍ਸੇਦਾਰ"><i>ਹਿਸ੍ਸੇਦਾਰ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਵੋਟ"><i>ਵੋਟ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਵੋਟ"><i>ਵੋਟ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਖ਼ਾਬ"><i>ਖ਼ਾਬ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਬਦਾਮ"><i>ਬਦਾਮ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਆਮੋਦ"><i>ਆਮੋਦ</i><par n="ਰਂਗ__n_m"/></e>
@@ -6839,12 +7081,12 @@
     <e lm="ਵਤਨ"><i>ਵਤਨ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਖਾਲ"><i>ਖਾਲ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਤਿਲ"><i>ਤਿਲ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਬਂਡਲ"><i>ਬਂਡਲ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਬਂਡਲ"><i>ਬਂਡਲ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਮਿਥਿਹਾਸ"><i>ਮਿਥਿਹਾਸ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਭਂਡ"><i>ਭਂਡ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਸਟੇਸ਼ਨ"><i>ਸਟੇਸ਼ਨ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਸੰਤ"><i>ਸੰਤ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਕੰਪਿਊਟਰ"><i>ਕੰਪਿਊਟਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕੰਪਿਊਟਰ"><i>ਕੰਪਿਊਟਰ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਯੁੱਗ"><i>ਯੁੱਗ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਰਾਸ਼ਟਰ"><i>ਰਾਸ਼ਟਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪ੍ਰੋਫੈਸਰ"><i>ਪ੍ਰੋਫੈਸਰ</i><par n="ਰਂਗ__n_m"/></e>
@@ -6852,7 +7094,7 @@
     <e lm="ਯਤਨ"><i>ਯਤਨ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪਿਛੋਕੜ"><i>ਪਿਛੋਕੜ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਫੁੱਟਬਾਲ"><i>ਫੁੱਟਬਾਲ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਯੂਨਿਟ"><i>ਯੂਨਿਟ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਯੂਨਿਟ"><i>ਯੂਨਿਟ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਸੰਪਰਕ"><i>ਸੰਪਰਕ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਇੰਟ੍ਰਫੇਸ"><i>ਇੰਟ੍ਰਫੇਸ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਸ਼ਿਕਾਰ"><i>ਸ਼ਿਕਾਰ</i><par n="ਰਂਗ__n_m"/></e>
@@ -6861,17 +7103,17 @@
     <e lm="ਸੰਪਾਦਕ"><i>ਸੰਪਾਦਕ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪੱਖ"><i>ਪੱਖ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਸੰਘਰਸ਼"><i>ਸੰਘਰਸ਼</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਫੈਕਟਰ"><i>ਫੈਕਟਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਫੈਕਟਰ"><i>ਫੈਕਟਰ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਥੀਏਟਰ"><i>ਥੀਏਟਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਵਰਣਨ"><i>ਵਰਣਨ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪ੍ਰਦਰਸ਼ਨ"><i>ਪ੍ਰਦਰਸ਼ਨ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪੱਥਰ"><i>ਪੱਥਰ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਐਟਮ"><i>ਐਟਮ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਐਟਮ"><i>ਐਟਮ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਸੰਕੇਤ"><i>ਸੰਕੇਤ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਹਸਪਤਾਲ"><i>ਹਸਪਤਾਲ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਪੱਤਰਕਾਰ"><i>ਪੱਤਰਕਾਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਕਰੀਅਰ"><i>ਕਰੀਅਰ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਬੋਰਡ"><i>ਬੋਰਡ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਬੋਰਡ"><i>ਬੋਰਡ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਬਾਦਸ਼ਾਹ"><i>ਬਾਦਸ਼ਾਹ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਕੱਪ"><i>ਕੱਪ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਅੰਕ"><i>ਅੰਕ</i><par n="ਰਂਗ__n_m"/></e>
@@ -6890,16 +7132,127 @@
     <e lm="ਮਹੱਤਵ"><i>ਮਹੱਤਵ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਨਾਟਕਕਾਰ"><i>ਨਾਟਕਕਾਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਦਰਸ਼ਕ"><i>ਦਰਸ਼ਕ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਸਟੈਂਡਰਡ"><i>ਸਟੈਂਡਰਡ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸਟੈਂਡਰਡ"><i>ਸਟੈਂਡਰਡ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਸਿਆਸਤਦਾਨ"><i>ਸਿਆਸਤਦਾਨ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਇੰਸਟੀਚਿਊਟ"><i>ਇੰਸਟੀਚਿਊਟ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਸਕੇਲਰ"><i>ਸਕੇਲਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਇੰਸਟੀਚਿਊਟ"><i>ਇੰਸਟੀਚਿਊਟ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਸਕੇਲਰ"><i>ਸਕੇਲਰ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਜੰਗਲ"><i>ਜੰਗਲ</i><par n="ਰਂਗ__n_m"/></e>
-    <e lm="ਟਵਿਨ"><i>ਟਵਿਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਟਵਿਨ"><i>ਟਵਿਨ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
     <e lm="ਅੰਗਰੇਜ਼"><i>ਅੰਗਰੇਜ਼</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਕੈਂਸਰ"><i>ਕੈਂਸਰ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਸੰਸਦ"><i>ਸੰਸਦ</i><par n="ਰਂਗ__n_m"/></e>
     <e lm="ਦੋਸ਼"><i>ਦੋਸ਼</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕਲਾਸ"><i>ਕਲਾਸ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮਿੱਤਰ"><i>ਮਿੱਤਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪੁੱਤ"><i>ਪੁੱਤ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕੋਟ"><i>ਕੋਟ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਝੁੰਡ"><i>ਝੁੰਡ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸਤ੍ਰ"><i>ਸਤ੍ਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਚੱਕਰ"><i>ਚੱਕਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਚਰਿਤਰ"><i>ਚਰਿਤਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪਾਤਰ"><i>ਪਾਤਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੰਚਾਲਕ"><i>ਸੰਚਾਲਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਜ਼ਿਕਰ"><i>ਜ਼ਿਕਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੀਜ਼ਨ"><i>ਸੀਜ਼ਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਦਿਵਸ"><i>ਦਿਵਸ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪਲੈਂਕ"><i>ਪਲੈਂਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸ਼ਾਸਨ"><i>ਸ਼ਾਸਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸਟੇਡੀਅਮ"><i>ਸਟੇਡੀਅਮ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮੌਸਮ"><i>ਮੌਸਮ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪੱਤਰ"><i>ਪੱਤਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕਥਨ"><i>ਕਥਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕ੍ਰਮਵਾਰ"><i>ਕ੍ਰਮਵਾਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਤੱਥ"><i>ਤੱਥ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕੁਆਰਕ"><i>ਕੁਆਰਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਖੇਤਰਫਲ"><i>ਖੇਤਰਫਲ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪ੍ਰਸੰਗ"><i>ਪ੍ਰਸੰਗ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕੋਆਰਡੀਨੇਟ"><i>ਕੋਆਰਡੀਨੇਟ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਰਸਾਇਣ"><i>ਰਸਾਇਣ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੰਵਿਧਾਨ"><i>ਸੰਵਿਧਾਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸ਼ਰਤ"><i>ਸ਼ਰਤ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸ਼ਾਇਰ"><i>ਸ਼ਾਇਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸ਼ੇਰ"><i>ਸ਼ੇਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕਲੰਡਰ"><i>ਕਲੰਡਰ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਮੈਡਲ"><i>ਮੈਡਲ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਮੰਦਿਰ"><i>ਮੰਦਿਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੰਗੀਤਕਾਰ"><i>ਸੰਗੀਤਕਾਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪਾਰਕ"><i>ਪਾਰਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਫੇਜ਼"><i>ਫੇਜ਼</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੈਂਟਰ"><i>ਸੈਂਟਰ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਲਿੰਗ"><i>ਲਿੰਗ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮੁਸਲਿਮ"><i>ਮੁਸਲਿਮ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਐਕਟ"><i>ਐਕਟ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਤਾਪ"><i>ਤਾਪ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕੋਨ"><i>ਕੋਨ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਸਟਾਰ"><i>ਸਟਾਰ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਮਾਲਕ"><i>ਮਾਲਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਅਧਿਕਾਰਕ"><i>ਅਧਿਕਾਰਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੰਦਰਭ"><i>ਸੰਦਰਭ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਬੈਂਡ"><i>ਬੈਂਡ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਗਿਰਜਾਘਰ"><i>ਗਿਰਜਾਘਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪ੍ਰਤੀਕ"><i>ਪ੍ਰਤੀਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪਲੇਨ"><i>ਪਲੇਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮਿੰਟ"><i>ਮਿੰਟ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਅਲੰਕਾਰ"><i>ਅਲੰਕਾਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਅਕਾਰ"><i>ਅਕਾਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮਾਹੌਲ"><i>ਮਾਹੌਲ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਅਧਿਅਨ"><i>ਅਧਿਅਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਬਾਬਤ"><i>ਬਾਬਤ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸਿਰਜਣ"><i>ਸਿਰਜਣ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਵਾਕੰਸ਼"><i>ਵਾਕੰਸ਼</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਤਟ"><i>ਤਟ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕ੍ਰਮ"><i>ਕ੍ਰਮ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਦੁਸ਼ਮਣ"><i>ਦੁਸ਼ਮਣ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਰੁੱਖ"><i>ਰੁੱਖ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮੰਚ"><i>ਮੰਚ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪੁਰਸ਼"><i>ਪੁਰਸ਼</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਦੀਪ"><i>ਦੀਪ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮਹਾਂਸਾਗਰ"><i>ਮਹਾਂਸਾਗਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪੰਥ"><i>ਪੰਥ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪਦਾਰਥਕ"><i>ਪਦਾਰਥਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਲਾਭ"><i>ਲਾਭ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪ੍ਰਚਾਰ"><i>ਪ੍ਰਚਾਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਵਿਅੰਗ"><i>ਵਿਅੰਗ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਐਕਸ਼ਨ"><i>ਐਕਸ਼ਨ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਫਿਕਸ"><i>ਫਿਕਸ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਐਨਸੈਂਬਲ"><i>ਐਨਸੈਂਬਲ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਲੀਪ"><i>ਲੀਪ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਆਰਟਸ"><i>ਆਰਟਸ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਐਵਾਰਡ"><i>ਐਵਾਰਡ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਕਿੰਗਡਮ"><i>ਕਿੰਗਡਮ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਟਾਵਰ"><i>ਟਾਵਰ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਪਾਰਟੀਕਲ"><i>ਪਾਰਟੀਕਲ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਚੈਨਲ"><i>ਚੈਨਲ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਟੂਰਨਾਮੈਂਟ"><i>ਟੂਰਨਾਮੈਂਟ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਫੋਨ"><i>ਫੋਨ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਐਂਪਲੀਟਿਊਡ"><i>ਐਂਪਲੀਟਿਊਡ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਪ੍ਰੋਜੈਕਟ"><i>ਪ੍ਰੋਜੈਕਟ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਨੈਟਵਰਕ"><i>ਨੈਟਵਰਕ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਬਰੇਨ"><i>ਬਰੇਨ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਫਰਮੀਔਨ"><i>ਫਰਮੀਔਨ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਸਕਾਈਵੇਵ"><i>ਸਕਾਈਵੇਵ</i><par n="ਰਂਗ__n_m"/></e> <!-- ਸ plural -->
+    <e lm="ਰੀਸੀਵਰ"><i>ਰੀਸੀਵਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪ੍ਰਵੇਗ"><i>ਪ੍ਰਵੇਗ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸਿੰਘ"><i>ਸਿੰਘ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਅੱਧ"><i>ਅੱਧ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮਰਨ"><i>ਮਰਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸਮਾਂਸੁਤੰਤਰ"><i>ਸਮਾਂਸੁਤੰਤਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸਕੱਤਰ"><i>ਸਕੱਤਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਰਾਜਵੰਸ਼"><i>ਰਾਜਵੰਸ਼</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੰਸਥਾਪਕ"><i>ਸੰਸਥਾਪਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਭਾਸ਼ਣ"><i>ਭਾਸ਼ਣ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕਨੂੰਨ"><i>ਕਨੂੰਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਸੰਕਟ"><i>ਸੰਕਟ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪ੍ਰਬੰਧਕ"><i>ਪ੍ਰਬੰਧਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮਿਸ਼ਰਣ"><i>ਮਿਸ਼ਰਣ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕਾਰਬਨ"><i>ਕਾਰਬਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਚਿੰਨ੍ਹ"><i>ਚਿੰਨ੍ਹ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਪੇਸ਼ੇਵਰ"><i>ਪੇਸ਼ੇਵਰ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਨਿਸ਼ਾਨ"><i>ਨਿਸ਼ਾਨ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਵੰਸ਼"><i>ਵੰਸ਼</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਕੈਥੋਲਿਕ"><i>ਕੈਥੋਲਿਕ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਮੰਡਲ"><i>ਮੰਡਲ</i><par n="ਰਂਗ__n_m"/></e>
+    <e lm="ਜੱਟ"><i>ਜੱਟ</i><par n="ਰਂਗ__n_m"/></e>
 
     <e lm="ਮਲਾਲ"><i>ਮਲਾਲ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਬਾਰ"><i>ਬਾਰ</i><par n="ਬਾਰ__n_m"/></e>
@@ -6998,6 +7351,7 @@
     <e lm="ਅਤੀਸਾਰ"><i>ਅਤੀਸਾਰ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਉਦਗਮ"><i>ਉਦਗਮ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਆਰੰਭ"><i>ਆਰੰਭ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਅਰੰਭ"><i>ਅਰੰਭ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਹੁਸਨ"><i>ਹੁਸਨ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਪਾਠਂਤਰ"><i>ਪਾਠਂਤਰ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਅਕਾਸ਼"><i>ਅਕਾਸ਼</i><par n="ਬਾਰ__n_m"/></e>
@@ -7475,6 +7829,41 @@
     <e lm="ਇਤਹਾਸ"><i>ਇਤਹਾਸ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਅਭਿਆਸ"><i>ਅਭਿਆਸ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਹਾਊਸ"><i>ਹਾਊਸ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਕੋਣ"><i>ਕੋਣ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਕਾਪੀ"><i>ਕਾਪੀ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਓਰ"><i>ਓਰ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਚਲਣ"><i>ਚਲਣ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਚਲਨ"><i>ਚਲਨ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਤੌਰ"><i>ਤੌਰ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਤੋਰਾ"><i>ਤੋਰਾ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਦੁੱਧ"><i>ਦੁੱਧ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਚਿੰਤਨ"><i>ਚਿੰਤਨ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਫੋਟੌਨ"><i>ਫੋਟੌਨ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਹਾਈਡ੍ਰੋਜਨ"><i>ਹਾਈਡ੍ਰੋਜਨ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਗੁਣਾ"><i>ਗੁਣਾ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਸ਼ਰਾਬ"><i>ਸ਼ਰਾਬ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਲਹੂ"><i>ਲਹੂ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਇੰਟਰਨੈੱਟ"><i>ਇੰਟਰਨੈੱਟ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਕਮਿਸ਼ਨ"><i>ਕਮਿਸ਼ਨ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਮੁਕਤ"><i>ਮੁਕਤ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਪ੍ਰੈੱਸ਼ਰ"><i>ਪ੍ਰੈੱਸ਼ਰ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਵਿਆਂ"><i>ਵਿਆਂ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਪੈਦਾ"><i>ਪੈਦਾ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਪਵਿੱਤਰ"><i>ਪਵਿੱਤਰ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਅਨੰਤ"><i>ਅਨੰਤ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਰੈਸਟ"><i>ਰੈਸਟ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਹੈਇਸ"><i>ਹੈਇਸ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਕੰਟਰੋਲ"><i>ਕੰਟਰੋਲ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਗੁਰੁਤਾਕਰਸ਼ਣ"><i>ਗੁਰੁਤਾਕਰਸ਼ਣ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਵਾਤਾਵਰਣ"><i>ਵਾਤਾਵਰਣ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਲਵ"><i>ਲਵ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਹਰਮਨ"><i>ਹਰਮਨ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਮੈਨ"><i>ਮੈਨ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਔਚਿਤਯ"><i>ਔਚਿਤਯ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਆਨੰਦ"><i>ਆਨੰਦ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਇਸ਼ਕ"><i>ਇਸ਼ਕ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਮੁਕੰਮਲ"><i>ਮੁਕੰਮਲ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਅਲਜਬਰਾ"><i>ਅਲਜਬਰਾ</i><par n="ਬਾਰ__n_m"/></e>
 
     <e lm="ਬਾਬਾ"><i>ਬਾਬਾ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਨੈਸ਼ਨਲ"><i>ਨੈਸ਼ਨਲ</i><par n="ਬਾਰ__n_m"/></e>
@@ -7484,6 +7873,7 @@
     <e lm="ਵਰਤਮਾਨ"><i>ਵਰਤਮਾਨ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਮਕ੍ਖਣ"><i>ਮਕ੍ਖਣ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਓਲੰਪਿਕ"><i>ਓਲੰਪਿਕ</i><par n="ਬਾਰ__n_m"/></e>
+    <e lm="ਘਣਤਾ"><i>ਘਣਤਾ</i><par n="ਬਾਰ__n_m"/></e>
     <e lm="ਰੁਝੇਵਾਂ"><i>ਰੁਝੇਵਾਂ</i><par n="ਬਾਰ__n_m"/></e> <!-- correct -->
 
     <e lm="ਖ਼ੁਦਾਈ"><i>ਖ਼ੁਦਾਈ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
@@ -7547,7 +7937,50 @@
     <e lm="ਜਨਸੰਖਿਆ"><i>ਜਨਸੰਖਿਆ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
     <e lm="ਗਰੈਵੀਟੇਸ਼ਨ"><i>ਗਰੈਵੀਟੇਸ਼ਨ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
     <e lm="ਕਲਾਂ"><i>ਕਲਾਂ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
-    
+    <e lm="ਬਾਈਬਲ"><i>ਬਾਈਬਲ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸਬਕ"><i>ਸਬਕ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਪਛਾਣ"><i>ਪਛਾਣ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਮਾਸੂਮੀਅਤ"><i>ਮਾਸੂਮੀਅਤ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਬੋਲਚਾਲ"><i>ਬੋਲਚਾਲ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਮਹਿਮਾ"><i>ਮਹਿਮਾ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਅਸਲੀਅਤ"><i>ਅਸਲੀਅਤ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਅਸਲੀਯਤ"><i>ਅਸਲੀਯਤ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਹੋਂਦ"><i>ਹੋਂਦ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਵਾਸਤਵਿਕਤਾ"><i>ਵਾਸਤਵਿਕਤਾ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਚੇਤਨਾ"><i>ਚੇਤਨਾ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸ਼ਾਂਤੀ"><i>ਸ਼ਾਂਤੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸਾਖਰਤਾ"><i>ਸਾਖਰਤਾ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਰੋਕ"><i>ਰੋਕ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਅੰਗਰੇਜੀ"><i>ਅੰਗਰੇਜੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਚਾਂਦੀ"><i>ਚਾਂਦੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਜਨਤਾ"><i>ਜਨਤਾ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਪਾਵਰ"><i>ਪਾਵਰ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਖੇਤੀ"><i>ਖੇਤੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਭਗਤੀ"><i>ਭਗਤੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਗੱਲਬਾਤ"><i>ਗੱਲਬਾਤ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸੁਤੰਤਰਤਾ"><i>ਸੁਤੰਤਰਤਾ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸਾਇੰਸ"><i>ਸਾਇੰਸ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਵਿਦਿਆ"><i>ਵਿਦਿਆ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਵਿੱਦਿਆ"><i>ਵਿੱਦਿਆ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਪਬਲਿਕ"><i>ਪਬਲਿਕ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਪੁਸ਼ਟੀ"><i>ਪੁਸ਼ਟੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਪ੍ਰਸਿੱਧੀ"><i>ਪ੍ਰਸਿੱਧੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਬੁੱਧ"><i>ਬੁੱਧ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸਟੇਸ਼ਨਰੀ"><i>ਸਟੇਸ਼ਨਰੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਇੰਜੀਨੀਅਰਿੰਗ"><i>ਇੰਜੀਨੀਅਰਿੰਗ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਤਰੱਕੀ"><i>ਤਰੱਕੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਕਮਾਈ"><i>ਕਮਾਈ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਤਾਮਿਲ"><i>ਤਾਮਿਲ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸੰਗਤ"><i>ਸੰਗਤ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਰੋਸ਼ਨੀ"><i>ਰੋਸ਼ਨੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਜਾਇਦਾਦ"><i>ਜਾਇਦਾਦ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਹਿੰਸਾ"><i>ਹਿੰਸਾ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸੀਰੀਜ਼"><i>ਸੀਰੀਜ਼</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਗਿੱਲ"><i>ਗਿੱਲ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਸੁਪਰਪੁਜੀਸ਼ਨ"><i>ਸੁਪਰਪੁਜੀਸ਼ਨ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਨੁਮਾਇੰਦਗੀ"><i>ਨੁਮਾਇੰਦਗੀ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+    <e lm="ਰਿਸਰਚ"><i>ਰਿਸਰਚ</i><par n="ਖ਼ੁਦਾਈ__n_f"/></e>
+
     <e lm="ਅਮਰੀਕੀ"><i>ਅਮਰੀਕੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
     <e lm="ਭਾਰਤੀ"><i>ਭਾਰਤੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
     <e lm="ਅੰਗਰੇਜ਼ੀ"><i>ਅੰਗਰੇਜ਼ੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
@@ -7591,9 +8024,21 @@
     <e lm="ਸਬੰਧੀ"><i>ਸਬੰਧੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
     <e lm="ਅਧਿਕਾਰੀ"><i>ਅਧਿਕਾਰੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
     <e lm="ਸਾਥੀ"><i>ਸਾਥੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਇਬਰਾਨੀ"><i>ਇਬਰਾਨੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਪਰਮਾਣੂ"><i>ਪਰਮਾਣੂ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਵਿਗਿਆਨੀ"><i>ਵਿਗਿਆਨੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਮੁਖੀ"><i>ਮੁਖੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਫੌਜੀ"><i>ਫੌਜੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਫ਼ੌਜੀ"><i>ਫ਼ੌਜੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਜਨਮਸਾਖੀ"><i>ਜਨਮਸਾਖੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਪੇਂਡੂ"><i>ਪੇਂਡੂ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਪ੍ਰਮਾਣੂ"><i>ਪ੍ਰਮਾਣੂ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਇਨਕਲਾਬੀ"><i>ਇਨਕਲਾਬੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਸਿਟੀ"><i>ਸਿਟੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਸਮਾਜਵਾਦੀ"><i>ਸਮਾਜਵਾਦੀ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
+    <e lm="ਪ੍ਰੋ"><i>ਪ੍ਰੋ</i><par n="ਅਮਰੀਕੀ__n_m"/></e>
 
     <e lm="ਜਾਣਕਾਰੀ"><i>ਜਾਣਕਾਰੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
-    <e lm="ਡਿਗਰੀ"><i>ਡਿਗਰੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
     <e lm="ਆਬਾਦੀ"><i>ਆਬਾਦੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
     <e lm="ਅਬਾਦੀ"><i>ਅਬਾਦੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
     <e lm="ਖਿਡਾਰੀ"><i>ਖਿਡਾਰੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
@@ -7607,6 +8052,7 @@
     <e lm="ਯਹੂਦੀ"><i>ਯਹੂਦੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
     <e lm="ਖੋਜੀ"><i>ਖੋਜੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
     <e lm="ਦਿਲਚਸਪੀ"><i>ਦਿਲਚਸਪੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
+    <e lm="ਡੈਂਸਟੀ"><i>ਡੈਂਸਟੀ</i><par n="ਜਾਣਕਾਰੀ__n_f"/></e>
 
     <e lm="ਘੰਟਾ"><i>ਘੰਟ</i><par n="ਮ/ਾ__n_m"/></e>
     <e lm="ਤਮਾਸ਼ਾ"><i>ਤਮਾਸ਼</i><par n="ਮ/ਾ__n_m"/></e>
@@ -8634,21 +9080,48 @@
     <e lm="ਵਿਸ਼ਾ"><i>ਵਿਸ਼</i><par n="ਮ/ਾ__n_m"/></e>
     <e lm="ਦਰਜਾ"><i>ਦਰਜ</i><par n="ਮ/ਾ__n_m"/></e>
     <e lm="ਮੌਕਾ"><i>ਮੌਕ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਦੂਸਰਾ"><i>ਦੂਸਰ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਚਿਹਰਾ"><i>ਚਿਹਰ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਬਹਾਨਾ"><i>ਬਹਾਨ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਮੁਖੜਾ"><i>ਮੁਖੜ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਝਟਕਾ"><i>ਝਟਕ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਧੱਕਾ"><i>ਧੱਕ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਦੁਪੱਟਾ"><i>ਦੁਪੱਟ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਦੁਪਟ੍ਟਾ"><i>ਦੁਪਟ੍ਟ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਲਪੇਟਾ"><i>ਲਪੇਟ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਮੁੱਦਾ"><i>ਮੁੱਦ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਜਿਲ੍ਹਾ"><i>ਜਿਲ੍ਹ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਸੋਨਾ"><i>ਸੋਨ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਸਫ਼ਾ"><i>ਸਫ਼</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਕੱਪੜਾ"><i>ਕੱਪੜ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਕੰਢਾ"><i>ਕੰਢ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਖੱਬਾ"><i>ਖੱਬ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਦਾਅਵਾ"><i>ਦਾਅਵ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਰਾਜਾ"><i>ਰਾਜ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਫਰਮਾ"><i>ਫਰਮ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਪੰਨਾ"><i>ਪੰਨ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਨਮੂਨਾ"><i>ਨਮੂਨ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਕਬੀਲਾ"><i>ਕਬੀਲ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਪੈਮਾਨਾ"><i>ਪੈਮਾਨ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਤਗਮਾ"><i>ਤਗਮ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਵੇਰਵਾ"><i>ਵੇਰਵ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਬੰਦਾ"><i>ਬੰਦ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਕਿਲ੍ਹਾ"><i>ਕਿਲ੍ਹ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਗਾਣਾ"><i>ਗਾਣ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਹਵਾਲਾ"><i>ਹਵਾਲ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਦਾਖਲਾ"><i>ਦਾਖਲ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਦੌਰਾ"><i>ਦੌਰ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਸਿਰਾ"><i>ਸਿਰ</i><par n="ਮ/ਾ__n_m"/></e>
+    <e lm="ਮੁੰਡਾ"><i>ਮੁੰਡ</i><par n="ਮ/ਾ__n_m"/></e>
 
     <e lm="ਪਿਤਾ"><i>ਪਿਤਾ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਦਰਿਆ"><i>ਦਰਿਆ</i><par n="ਪਿਤਾ__n_m"/></e>
-    <e lm="ਰਾਜਾ"><i>ਰਾਜਾ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਅੜਾ"><i>ਅੜਾ</i><par n="ਪਿਤਾ__n_m"/></e>
-    <e lm="ਚਾਰਵਾਕੀਆ"><i>ਚਾਰਵਾਕੀਆ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਪ੍ਰਬਂਧਕਾ"><i>ਪ੍ਰਬਂਧਕਾ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਮੁਂੜ੍ਹਂਗਾ"><i>ਮੁਂੜ੍ਹਂਗਾ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਮੁਹਾਂਦਰਾ"><i>ਮੁਹਾਂਦਰਾ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਨਿਆਂ"><i>ਨਿਆਂ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਪ੍ਰਸ਼ਨਕਰਤਾ"><i>ਪ੍ਰਸ਼ਨਕਰਤਾ</i><par n="ਪਿਤਾ__n_m"/></e>
-    <e lm="ਤਕੀਆ"><i>ਤਕੀਆ</i><par n="ਪਿਤਾ__n_m"/></e> <!-- doubt -->
-    <e lm="ਟਸੂਆ"><i>ਟਸੂਆ</i><par n="ਪਿਤਾ__n_m"/></e> <!-- doubt -->
-    <e lm="ਡਾਕੀਆ"><i>ਡਾਕੀਆ</i><par n="ਪਿਤਾ__n_m"/></e> <!-- doubt -->
-    <e lm="ਦੁਰਲੀਆ"><i>ਦੁਰਲੀਆ</i><par n="ਪਿਤਾ__n_m"/></e> <!-- doubt -->
     <e lm="ਰਾਜ ਮਾਲੀਆ"><i>ਰਾਜ<b/>ਮਾਲੀਆ</i><par n="ਪਿਤਾ__n_m"/></e> <!-- doubt -->
     <e lm="ਉਲਥਾ"><i>ਉਲਥਾ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਵਰਗਾ"><i>ਵਰਗਾ</i><par n="ਪਿਤਾ__n_m"/></e>
@@ -8662,6 +9135,23 @@
     <e lm="ਅਦਾਕਾਰਾ"><i>ਅਦਾਕਾਰਾ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਸੁਭਾਅ"><i>ਸੁਭਾਅ</i><par n="ਪਿਤਾ__n_m"/></e>
     <e lm="ਨਿਰਮਾਤਾ"><i>ਨਿਰਮਾਤਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਭਰਾ"><i>ਭਰਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਨੇਤਾ"><i>ਨੇਤਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਸ਼ਾਖਾ"><i>ਸ਼ਾਖਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਸੋਮਾ"><i>ਸੋਮਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਉਲੰਘਣਾ"><i>ਉਲੰਘਣਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਵਿਵਸਥਾ"><i>ਵਿਵਸਥਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਪੜਾਅ"><i>ਪੜਾਅ</i><par n="ਪਿਤਾ__n_m"/></e>
+    <e lm="ਅਭਿਨੇਤਾ"><i>ਅਭਿਨੇਤਾ</i><par n="ਪਿਤਾ__n_m"/></e>
+
+    <e lm="ਡਾਕੀਆ"><i>ਡਾਕੀ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
+    <e lm="ਤਕੀਆ"><i>ਤਕੀ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
+    <e lm="ਟਸੂਆ"><i>ਟਸੂ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
+    <e lm="ਦੁਰਲੀਆ"><i>ਦੁਰਲੀ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
+    <e lm="ਚਾਰਵਾਕੀਆ"><i>ਚਾਰਵਾਕੀਆ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
+    <e lm="ਰੁਪਆ"><i>ਰੁਪ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
+    <e lm="ਰੁਪਿਆ"><i>ਰੁਪਿ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
+    <e lm="ਵਾਕਿਆ"><i>ਵਾਕਿ</i><par n="ਡਾਕੀ/ਆ__n_m"/></e>
 
     <e lm="ਕਾਨ"><i>ਕ</i><par n="ਕਾਨ__n_m"/></e> 
 
@@ -8675,6 +9165,7 @@
 <!-- SECTION: Adjectives -->
 <!-- Add adjectival forms of numerals and ordinals, fractions(ਚੁਥਾਈ) ਅਮਰੀਕੀ__n_m, M tags in file -->
 <!-- check badi/choti i for plural feminine form -->
+    <e lm="ਅਜਿਹਾ"><i>ਅਜਿਹ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਦੂਸਰਾ"><i>ਦੂਸਰ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਦੂਜਾ"><i>ਦੂਜ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਚੰਗਾ"><i>ਚੰਗ</i><par n="ਦੁਬਲਾ__adj"/></e>
@@ -8828,7 +9319,7 @@
     <e lm="ਜਿਂਨਾ"><i>ਜਿਂਨ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਦੋਗਲਾ"><i>ਦੋਗਲ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਕਰਾਰਾ"><i>ਕਰਾਰ</i><par n="ਦੁਬਲਾ__adj"/></e>
-    <e lm="ਵੱਖਰੇ"><i>ਵੱਖਰ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਵੱਖਰਾ"><i>ਵੱਖਰ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਵਰਗਾ"><i>ਵਰਗ</i><par n="ਦੁਬਲਾ__adj"/></e>  <!-- check plural femimine spelling -->
     <e lm="ਭੋਲਾ"><i>ਭੋਲ</i><par n="ਦੁਬਲਾ__adj"/></e>  <!-- check plural femimine spelling -->
     <e lm="ਖੜਾ"><i>ਖੜ</i><par n="ਦੁਬਲਾ__adj"/></e>  <!-- check plural femimine spelling -->
@@ -8934,10 +9425,19 @@
     <e lm="ਸਿੱਧਾ"><i>ਸਿੱਧ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਸਾਹਮਣਾ"><i>ਸਾਹਮਣ</i><par n="ਦੁਬਲਾ__adj"/></e>
     <e lm="ਮੁੱਢਲਾ"><i>ਮੁੱਢਲ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਮਾੜਾ"><i>ਮਾੜ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਬੇਚਾਰਾ"><i>ਬੇਚਾਰ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਬਿਚਾਰਾ"><i>ਬਿਚਾਰ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਨਕਾਰਾ"><i>ਨਕਾਰ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਨਿੱਕਾ"><i>ਨਿੱਕ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਇਕੱਠਾ"><i>ਇਕੱਠ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਜਿੰਨਾ"><i>ਜਿੰਨ</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਤਾਜ਼ਾ"><i>ਤਾਜ਼</i><par n="ਦੁਬਲਾ__adj"/></e>
+    <e lm="ਇੰਨਾ"><i>ਇੰਨ</i><par n="ਦੁਬਲਾ__adj"/></e>
 
-    <e lm="ਅਜੀਬ"><i>ਅਜੀਬ</i><par n="ਅਜੀਬ__adj"/></e>
-    <e lm="ਅਜਬ"><i>ਅਜਬ</i><par n="ਅਜੀਬ__adj"/></e>
-    <e lm="ਸੂਰਮਾ"><i>ਸੂਰਮਾ</i><par n="ਅਜੀਬ__adj"/></e>
+    <e lm="ਅਜੀਬ"><i>ਅਜੀਬ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅਜਬ"><i>ਅਜਬ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸੂਰਮਾ"><i>ਸੂਰਮਾ</i><par n="ਗਲਤ__adj"/></e>
 
     <e lm="ਤਰਾਂ"><i>ਤਰਾਂ</i><par n="ਗਲਤ__adj"/></e>
     <e lm="ਵਾਂਗ"><i>ਵਾਂਗ</i><par n="ਗਲਤ__adj"/></e>
@@ -10322,26 +10822,97 @@
     <e lm="ਗੋਲ"><i>ਗੋਲ</i><par n="ਗਲਤ__adj"/></e>
     <e lm="ਮੈਨੀਫੋਲਡ"><i>ਮੈਨੀਫੋਲਡ</i><par n="ਗਲਤ__adj"/></e>
     <e lm="ਮਹੱਤਵਪੂਰਣ"><i>ਮਹੱਤਵਪੂਰਣ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਭ੍ਰਿਸ਼ਟ"><i>ਭ੍ਰਿਸ਼ਟ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਖੁਸ਼"><i>ਖੁਸ਼</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਹਾਸਿਲ"><i>ਹਾਸਿਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਲੀਨੀਅਰ"><i>ਲੀਨੀਅਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਟੈਟਿਸਟੀਕਲ"><i>ਸਟੈਟਿਸਟੀਕਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗੇਜ"><i>ਗੇਜ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸ਼ਾਹੀ"><i>ਸ਼ਾਹੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਇਹੀ"><i>ਇਹੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਤਤਕਾਲੀਨ"><i>ਤਤਕਾਲੀਨ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗੁਣਾ"><i>ਗੁਣਾ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਬ੍ਰਹਿਮੰਡੀ"><i>ਬ੍ਰਹਿਮੰਡੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅੰਗਰੇਜੀ"><i>ਅੰਗਰੇਜੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸੰਪੂਰਣ"><i>ਸੰਪੂਰਣ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸ਼ਹਿਰੀ"><i>ਸ਼ਹਿਰੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਕਮਜੋਰ"><i>ਕਮਜੋਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗੁਪਤ"><i>ਗੁਪਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਉੱਤਮ"><i>ਉੱਤਮ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਕਾਨੂੰਨੀ"><i>ਕਾਨੂੰਨੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਟਾਈਮਲਾਈਕ"><i>ਟਾਈਮਲਾਈਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਭਿੰਨ"><i>ਭਿੰਨ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮੁਕਤ"><i>ਮੁਕਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸੀਨੀਅਰ"><i>ਸੀਨੀਅਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗੁੰਝਲਦਾਰ"><i>ਗੁੰਝਲਦਾਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਪਸ਼ਟ"><i>ਸਪਸ਼ਟ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪ੍ਰਵੇਗਿਤ"><i>ਪ੍ਰਵੇਗਿਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮਿਆਰੀ"><i>ਮਿਆਰੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅਨੁਮਾਨਿਤ"><i>ਅਨੁਮਾਨਿਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪ੍ਰਯੋਗਿਕ"><i>ਪ੍ਰਯੋਗਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗਤਿਜ"><i>ਗਤਿਜ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਵੈਸਿੱਧ"><i>ਸਵੈਸਿੱਧ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਵਿਲੱਖਣ"><i>ਵਿਲੱਖਣ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪ੍ਰੇਰਿਤ"><i>ਪ੍ਰੇਰਿਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਫਾਰਸੀ"><i>ਫਾਰਸੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮਜ਼ਬੂਤ"><i>ਮਜ਼ਬੂਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮਜਬੂਤ"><i>ਮਜਬੂਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਾਹ"><i>ਸਾਹ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗਲੋਬਲ"><i>ਗਲੋਬਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਇੰਟਗ੍ਰਲ"><i>ਇੰਟਗ੍ਰਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸੈਕੰਡਰੀ"><i>ਸੈਕੰਡਰੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪ੍ਰਾਇਮਰੀ"><i>ਪ੍ਰਾਇਮਰੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪ੍ਰਚਲਿਤ"><i>ਪ੍ਰਚਲਿਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅਨਿਰੰਤਰ"><i>ਅਨਿਰੰਤਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪੈਦਾ"><i>ਪੈਦਾ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪਵਿੱਤਰ"><i>ਪਵਿੱਤਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮਾਰਕਸਵਾਦੀ"><i>ਮਾਰਕਸਵਾਦੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਪੇਂਡੂ"><i>ਪੇਂਡੂ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅਕਾਰ"><i>ਅਕਾਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਨਿਰਧਾਰਤ"><i>ਨਿਰਧਾਰਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅਨੰਤ"><i>ਅਨੰਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਉਪ"><i>ਉਪ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਇਸੇਤਰਾਂ"><i>ਇਸੇਤਰਾਂ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਕਾਲਪਨਿਕ"><i>ਕਾਲਪਨਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਿਵਲ"><i>ਸਿਵਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਐਟੌਮਿਕ"><i>ਐਟੌਮਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਏਸ਼ੀਅਨ"><i>ਏਸ਼ੀਅਨ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅਜ਼ਾਦ"><i>ਅਜ਼ਾਦ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮਾਨਸਿਕ"><i>ਮਾਨਸਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਪੇਸਲਾਈਕ"><i>ਸਪੇਸਲਾਈਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮਾਨਸਿਕ"><i>ਮਾਨਸਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅੰਤਮ"><i>ਅੰਤਮ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਰਬੋਤਮ"><i>ਸਰਬੋਤਮ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅੱਧ"><i>ਅੱਧ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਤੁੱਲ"><i>ਤੁੱਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗਰੀਕ"><i>ਗਰੀਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਜਾਪਾਨੀ"><i>ਜਾਪਾਨੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਫਾਰ"><i>ਫਾਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਕੌਮਾਂਤਰੀ"><i>ਕੌਮਾਂਤਰੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਇਨਕਲਾਬੀ"><i>ਇਨਕਲਾਬੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਅਧਾਰਤ"><i>ਅਧਾਰਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਪੈਕਟ੍ਰਲ"><i>ਸਪੈਕਟ੍ਰਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮੌਲਿਕ"><i>ਮੌਲਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮੁਕੰਮਲ"><i>ਮੁਕੰਮਲ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਜ਼ਰੂਰਤ"><i>ਜ਼ਰੂਰਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਮਿਸ਼ਰਤ"><i>ਮਿਸ਼ਰਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਡਿੱਗ"><i>ਡਿੱਗ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਸਮਾਜਵਾਦੀ"><i>ਸਮਾਜਵਾਦੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗ਼ਦਰੀ"><i>ਗ਼ਦਰੀ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਉਤਪੰਨ"><i>ਉਤਪੰਨ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਘੋਸ਼ਿਤ"><i>ਘੋਸ਼ਿਤ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਜਿਮੇਵਾਰ"><i>ਜਿਮੇਵਾਰ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਥਰਮੋਡਾਇਨਾਮਿਕ"><i>ਥਰਮੋਡਾਇਨਾਮਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਕੈਥੋਲਿਕ"><i>ਕੈਥੋਲਿਕ</i><par n="ਗਲਤ__adj"/></e>
+    <e lm="ਗਲਤ"><i>ਗਲਤ</i><par n="ਗਲਤ__adj"/></e>
 
     <e lm="ਨਵਾਂ"><i>ਨਵ</i><par n="ਨਵ/ਾਂ__adj"/></e>
+    <e lm="ਏਨਾਂ"><i>ਏਨ</i><par n="ਨਵ/ਾਂ__adj"/></e>
 
 
 <!-- SECTION: Verbs -->
     
     <e lm="ਹੋ"><i></i><par n="/ਹੋ__vbser"/></e>
-
-    <e lm="ਬੈਠ"><i>ਬੈਠ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਚਲ"><i>ਚਲ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਚੱਲ"><i>ਚੱਲ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਫਫਕ"><i>ਫਫਕ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਭਰ"><i>ਭਰ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਪੜ"><i>ਪੜ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਪਹੁੰਚ"><i>ਪਹੁੰਚ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਸਮਝ"><i>ਸਮਝ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਪਤਾ ਚਲ"><i>ਪਤਾ<b/>ਚਲ</i><par n="ਬੈਠ__vblex_iv"/></e>
-    <e lm="ਆਸਰਾ ਵੇਖ"><i>ਆਸਰਾ<b/>ਵੇਖ</i><par n="ਬੈਠ__vblex_iv"/></e>
-
-    <e lm="ਪੈਦਾ"><i>ਪੈਦਾ</i><par n="ਬੈਠ__vblex_iv"/></e> <!--dummy-->
 
     <e lm="ਪਹੁੰਚ"><i>ਪਹੁੰਚ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਦੇਖ"><i>ਦੇਖ</i><par n="ਬੋਲ__vblex_tv"/></e>
@@ -10375,7 +10946,6 @@
     <e lm="ਬਦਲ"><i>ਬਦਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਮਿਲ"><i>ਮਿਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਪਤਾ ਲੱਗ"><i>ਪਤਾ<b/>ਲੱਗ</i><par n="ਬੋਲ__vblex_tv"/></e>
-    <e lm="ਪਤਾ ਚਲ"><i>ਪਤਾ<b/>ਚਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਪਤਾ ਲਿੱਖ"><i>ਪਤਾ<b/>ਲਿੱਖ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਧਰਮ ਬਦਲ"><i>ਧਰਮ<b/>ਬਦਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਰੂਪ ਬਦਲ"><i>ਰੂਪ<b/>ਬਦਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
@@ -10420,9 +10990,123 @@
     <e lm="ਆਖ"><i>ਆਖ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਭੇਜ"><i>ਭੇਜ</i><par n="ਬੋਲ__vblex_tv"/></e>
     <e lm="ਕੱਢ"><i>ਕੱਢ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਚਾਹ"><i>ਚਾਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਚਿਪਕ"><i>ਚਿਪਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਚੁੱਕ"><i>ਚੁੱਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਸਿਖ"><i>ਸਿਖ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਵਧ"><i>ਵਧ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਦੱਸ"><i>ਦੱਸ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਦਸ"><i>ਦਸ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਦਸ੍ਸ"><i>ਦਸ੍ਸ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਭਾਖ"><i>ਭਾਖ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਢਲ"><i>ਢਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਢੱਕ"><i>ਢੱਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਰਂਗ"><i>ਰਂਗ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਰੰਗ"><i>ਰੰਗ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਰੋੜ੍ਹ"><i>ਰੋੜ੍ਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਰੁੜ੍ਹ"><i>ਰੁੜ੍ਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਗਠ"><i>ਗਠ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਬੰਨ੍ਹ"><i>ਬੰਨ੍ਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਨਰੜ"><i>ਨਰੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਜਕੜ"><i>ਜਕੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਕੜ"><i>ਕੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਵੰਡ"><i>ਵੰਡ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਵਂਡ"><i>ਵਂਡ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਵਿਕ"><i>ਵਿਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖਿਂਡ"><i>ਖਿਂਡ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖਿਂਡਰ"><i>ਖਿਂਡਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖਿਲ੍ਲਰ"><i>ਖਿਲ੍ਲਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਬਿਖਰ"><i>ਬਿਖਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਵਗ"><i>ਵਗ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਝਰ"><i>ਝਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਡੁਲ੍ਹ"><i>ਡੁਲ੍ਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਕਥ"><i>ਕਥ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਬਦਲ"><i>ਬਦਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਵਟ"><i>ਵਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਤਣ"><i>ਤਣ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਧੁਮ੍ਮ"><i>ਧੁਮ੍ਮ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪਸਰ"><i>ਪਸਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫੈਲ"><i>ਫੈਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਉਝੜ"><i>ਉਝੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫੈਲਰ"><i>ਫੈਲਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਹੁਲ"><i>ਹੁਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖਿਲੇਰ"><i>ਖਿਲੇਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਤਾਣ"><i>ਤਾਣ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪਸਾਰ"><i>ਪਸਾਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਂਦ"><i>ਫਂਦ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਘਰੋੜ"><i>ਘਰੋੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਝਾੜ"><i>ਝਾੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪੁਂਝ"><i>ਪੁਂਝ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਮੇਟ"><i>ਮੇਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਕੜਕ"><i>ਕੜਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਟ"><i>ਫਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫੁਟ੍ਟ"><i>ਫੁਟ੍ਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਡਪਟ"><i>ਡਪਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਡਾਂਟ"><i>ਡਾਂਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਤਾੜ"><i>ਤਾੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਦਬ੍ਬਲ"><i>ਦਬ੍ਬਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਿਟਕਾਰ"><i>ਫਿਟਕਾਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਤਿਲ੍ਹਕ"><i>ਤਿਲ੍ਹਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਿਸਲ"><i>ਫਿਸਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਰਿੜ੍ਹ"><i>ਰਿੜ੍ਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਉਮ੍ਹਲ"><i>ਉਮ੍ਹਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪਾਟ"><i>ਪਾਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪੁਂਗਰ"><i>ਪੁਂਗਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਟ"><i>ਫਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫੁਟ੍ਟ"><i>ਫੁਟ੍ਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫੁੱਟ"><i>ਫੁੱਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਉਭਰ"><i>ਉਭਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਆਫਰ"><i>ਆਫਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਸੁਜ"><i>ਸੁਜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫੁੱਲ"><i>ਫੁੱਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਕੁਟ੍ਟ"><i>ਕੁਟ੍ਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਕੁੱਟ"><i>ਕੁੱਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖਲ"><i>ਖਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖੁਟਕ"><i>ਖੁਟਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖੁਲ੍ਲ"><i>ਖੁਲ੍ਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਚੁਟ"><i>ਚੁਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਜਿਹੜ"><i>ਜਿਹੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਝਮ"><i>ਝਮ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਝਂਬ"><i>ਝਂਬ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਠੋਕ"><i>ਠੋਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਰਕ"><i>ਫਰਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਾਂਟ"><i>ਫਾਂਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖ਼ਰਾਸ"><i>ਖ਼ਰਾਸ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫਂਡ"><i>ਫਂਡ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਫੈਂਟ"><i>ਫੈਂਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਘੋਟ"><i>ਘੋਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪੀਹ"><i>ਪੀਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਮਧੋਲ"><i>ਮਧੋਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਮਿਧ"><i>ਮਿਧ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਜਾਣ"><i>ਜਾਣ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਜਾਨ"><i>ਜਾਨ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਜੱਗ"><i>ਜੱਗ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਜਾਗ"><i>ਜਾਗ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਉਠ"><i>ਉਠ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਉਟ੍ਠ"><i>ਉਟ੍ਠ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਉੱਠ"><i>ਉੱਠ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਗਚ"><i>ਗਚ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਮਿਲ"><i>ਮਿਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਗੁੰਝਲਦਾਰ"><i>ਗੁੰਝਲਦਾਰ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਸਪਸ਼ਟ"><i>ਸਪਸ਼ਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪੜ੍ਹ"><i>ਪੜ੍ਹ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਰੋਕ"><i>ਰੋਕ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖਿੱਚ"><i>ਖਿੱਚ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪੀ"><i>ਪੀ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਸਿਰਜ"><i>ਸਿਰਜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪਾਲ"><i>ਪਾਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਨਿਕਲ"><i>ਨਿਕਲ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਜੋੜ"><i>ਜੋੜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਟੁੱਟ"><i>ਟੁੱਟ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਖੋਜ"><i>ਖੋਜ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਰਚ"><i>ਰਚ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਡਿੱਗ"><i>ਡਿੱਗ</i><par n="ਬੋਲ__vblex_tv"/></e>
+    <e lm="ਪਛਾਣ"><i>ਪਛਾਣ</i><par n="ਬੋਲ__vblex_tv"/></e>
   
     <e lm="ਪੇਸ਼"><i>ਪੇਸ਼</i><par n="ਬੋਲ__vblex_tv"/></e> <!--dummy-->
     <e lm="ਲੱਗ"><i>ਲੱਗ</i><par n="ਬੋਲ__vblex_tv"/></e> <!--dummy-->
+
+    <e lm="ਚਾਹ"><i>ਚਾਹ</i><par n="ਚਾਹ__vblex_tv"/></e>
 
     <e lm="ਦਿਖਾ"><i>ਦਿਖਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਲਗਾ"><i>ਲਗਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
@@ -10430,10 +11114,60 @@
     <e lm="ਲਾ"><i>ਲਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਕਰਵਾ"><i>ਕਰਵਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਦਰਸਾ"><i>ਦਰਸਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਬੁਲਾ"><i>ਬੁਲਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਬਣਾ"><i>ਬਣਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਪਾ"><i>ਪਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਖਾ"><i>ਖਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਵੜਾ"><i>ਵੜਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਵਧਾ"><i>ਵਧਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਨਿਭਾ"><i>ਨਿਭਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਛੁ"><i>ਛੁ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਛੂ"><i>ਛੂ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਚੁੱਕਾ"><i>ਚੁੱਕਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਬਤਾ"><i>ਬਤਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਘਬਰਾ"><i>ਘਬਰਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਦਬਾ"><i>ਦਬਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਮਨ੍ਹਾ"><i>ਮਨ੍ਹਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਮਨ੍ਹਾ"><i>ਮਨ੍ਹਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਰੁੜ੍ਹਾ"><i>ਰੁੜ੍ਹਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਤਰਾ"><i>ਤਰਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਬਹਾ"><i>ਬਹਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਵਗਾ"><i>ਵਗਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਉਲਟਾ"><i>ਉਲਟਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਵਟਾ"><i>ਵਟਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਖਿਂਡਾ"><i>ਖਿਂਡਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਧੁਮਾ"><i>ਧੁਮਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਵਿਛਾ"><i>ਵਿਛਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਫਸਾ"><i>ਫਸਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਫਹਾ"><i>ਫਹਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਧਮਕਾ"><i>ਧਮਕਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਸੰਬਰਾ"><i>ਸੰਬਰਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਫੁਸਫੁਸਾ"><i>ਫੁਸਫੁਸਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਸੁਲਗਾ"><i>ਸੁਲਗਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਧੁਖਾ"><i>ਧੁਖਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਟਿਕਾ"><i>ਟਿਕਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਹਲਾ"><i>ਹਲਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਹਿਲਾ"><i>ਹਿਲਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਕੰਬਾ"><i>ਕੰਬਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਡੁਲਾ"><i>ਡੁਲਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਥਰ੍ਰਾ"><i>ਥਰ੍ਰਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਪਾ"><i>ਪਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਮਿਲਾ"><i>ਮਿਲਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਮਨਾ"><i>ਮਨਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਅਪਣਾ"><i>ਅਪਣਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਗਾ"><i>ਗਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਕੁਰਲਾ"><i>ਕੁਰਲਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਖਿੜਖਿੜਾ"><i>ਖਿੜਖਿੜਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਟਿਭਣਾ"><i>ਟਿਭਣਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਗੜਗੜਾ"><i>ਗੜਗੜਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਅੜਾ"><i>ਅੜਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਕਤਰਾ"><i>ਕਤਰਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਭੜਕਣਾ"><i>ਭੜਕਣਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਗੁਣ ਗਣਾ"><i>ਗੁਣ<b/>ਗਣਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਪਤਾ ਲਗਾ"><i>ਪਤਾ<b/>ਲਗਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਅਨੁਮਾਨ ਲਗਾ"><i>ਅਨੁਮਾਨ<b/>ਲਗਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਬਣਾ"><i>ਬਣਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
-    <e lm="ਦਰਸਾ"><i>ਦਰਸਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
+    <e lm="ਚੁਕਾ"><i>ਚੁਕਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਨਿਭਾ"><i>ਨਿਭਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਘਟ੍ਟ ਦਿਖਾ"><i>ਘਟ੍ਟ<b/>ਦਿਖਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
     <e lm="ਸ਼ਰਮਿਂਦਗੀ ਦਿਖਾ"><i>ਸ਼ਰਮਿਂਦਗੀ<b/>ਦਿਖਾ</i><par n="ਲਮਕਾ__vblex_tv"/></e>
@@ -10460,13 +11194,10 @@
     <e lm="ਕਹ"><i>ਕ</i><par n="ਕ/ਹ__vblex_tv"/></e>
 
     <e lm="ਲਿਆ"><i>ਲਿਆ</i><par n="ਲਿਆ__vblex_tv"/></e>
-    <e lm="ਬਣਾ"><i>ਬਣਾ</i><par n="ਲਿਆ__vblex_tv"/></e>
-    <e lm="ਪਾ"><i>ਪਾ</i><par n="ਲਿਆ__vblex_tv"/></e>
-    <e lm="ਖਾ"><i>ਖਾ</i><par n="ਲਿਆ__vblex_tv"/></e>
-    <e lm="ਵੜਾ"><i>ਵੜਾ</i><par n="ਲਿਆ__vblex_tv"/></e>
 
     <e lm="ਲੈ"><i>ਲ</i><par n="ਲ/ੈ__vblex_tv"/></e>
     <e lm="ਪੈ"><i>ਪ</i><par n="ਲ/ੈ__vblex_tv"/></e>
+    <e lm="ਸਾਹ ਲੈ"><i>ਸਾਹ<b/>ਲ</i><par n="ਲ/ੈ__vblex_tv"/></e>
 
     <e lm="ਰਹ"><i></i><par n="/ਰਹ__vaux_iv"/></e>
     <e lm="ਬਾਕੀ ਰਹ"><i>ਬਾਕੀ<b/></i><par n="/ਰਹ__vaux_iv"/></e>
@@ -10475,11 +11206,298 @@
     <e lm="ਚੀਕ"><i>ਚੀਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
     <e lm="ਫਟ"><i>ਫਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
     <e lm="ਪਰਤ"><i>ਪਰਤ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮਰ"><i>ਮਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਲ"><i>ਚਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਤਾ ਚਲ"><i>ਪਤਾ<b/>ਚਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬੈਠ"><i>ਬੈਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚੱਲ"><i>ਚੱਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫਫਕ"><i>ਫਫਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਭਰ"><i>ਭਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪੜ"><i>ਪੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਹੁੰਚ"><i>ਪਹੁੰਚ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸਮਝ"><i>ਸਮਝ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸਹਿਮ"><i>ਸਹਿਮ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬੀਤ"><i>ਬੀਤ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰੁਕ"><i>ਰੁਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਆਸਰਾ ਵੇਖ"><i>ਆਸਰਾ<b/>ਵੇਖ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮੁੱਕ"><i>ਮੁੱਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਦੌੜ"><i>ਦੌੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮੁੱਢ"><i>ਮੁੱਢ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵੜ"><i>ਵੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਹਿਕ"><i>ਚਹਿਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਹਿਕ"><i>ਟਹਿਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਅੜ"><i>ਅੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੜਕ"><i>ਕੜਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤੜਿਕ"><i>ਤੜਿਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕਰਾਹ"><i>ਕਰਾਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲੁਛ"><i>ਲੁਛ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹੂਂਗ"><i>ਹੂਂਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੁਦ"><i>ਕੁਦ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੁੱਦ"><i>ਕੁੱਦ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟੱਪ"><i>ਟੱਪ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਟਕ"><i>ਖਟਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੜਕ"><i>ਖੜਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਿੜ"><i>ਖਿੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਿਲ"><i>ਖਿਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਟਕ"><i>ਚਟਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਹਿਕ"><i>ਟਹਿਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਹਿਕ ਉਠ"><i>ਟਹਿਕ<b/>ਉਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਿਕਲ"><i>ਨਿਕਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਿਸਰ"><i>ਨਿਸਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪੁਂਗਰ"><i>ਪੁਂਗਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੁੱਟ"><i>ਫੁੱਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸਰਸ"><i>ਸਰਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਿਸਕ"><i>ਖਿਸਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੜਕ"><i>ਕੜਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗਜ੍ਜ"><i>ਗਜ੍ਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗੜ੍ਹਕ"><i>ਗੜ੍ਹਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗਰਜ"><i>ਗਰਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗਰੜ੍ਹ"><i>ਗਰੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਦਹਾੜ"><i>ਦਹਾੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬੜ੍ਹਕ"><i>ਬੜ੍ਹਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਲਕਾਰ"><i>ਲਲਕਾਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਘਟ"><i>ਘਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਘੱਟ"><i>ਘੱਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਾਪਰ"><i>ਵਾਪਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੁਭ"><i>ਖੁਭ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਘੁਸੜ"><i>ਘੁਸੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਧਸ"><i>ਧਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵੜ"><i>ਵੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੁਲ੍ਹ"><i>ਖੁਲ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਮਕ"><i>ਚਮਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਿਲਕ"><i>ਚਿਲਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝਲਕ"><i>ਝਲਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਡਲ੍ਹਕ"><i>ਡਲ੍ਹਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਦਗ"><i>ਦਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਦਮਕ"><i>ਦਮਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਿਖਰ"><i>ਨਿਖਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਿਸ਼ਕ"><i>ਲਿਸ਼ਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚੀਕ"><i>ਚੀਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚੌਂਕ"><i>ਚੌਂਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤਭਕ"><i>ਤਭਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਛਿੱਕ"><i>ਛਿੱਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਿਚ੍ਛ"><i>ਨਿਚ੍ਛ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜਲ"><i>ਜਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਦਜ੍ਝ"><i>ਦਜ੍ਝ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਧੁਖ"><i>ਧੁਖ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੁਕ"><i>ਫੁਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੁੱਕ"><i>ਫੁੱਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਲ"><i>ਬਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਭਖ"><i>ਭਖ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮਘ"><i>ਮਘ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੜ"><i>ਸੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜੂਝ"><i>ਜੂਝ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝਪਟ"><i>ਝਪਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਲਰ"><i>ਉਲਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝਵ"><i>ਝਵ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੁਕ"><i>ਝੁਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਦਬ"><i>ਦਬ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਿਵ"><i>ਨਿਵ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮੁੜ"><i>ਮੁੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਿਫ਼"><i>ਲਿਫ਼</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੁਟ"><i>ਝੁਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੂਮ"><i>ਝੂਮ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੂਟ"><i>ਝੂਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੂਣ"><i>ਝੂਣ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੂਲ"><i>ਝੂਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਢਿਲਕ"><i>ਢਿਲਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹਿਲ"><i>ਹਿਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੇਂਪ"><i>ਝੇਂਪ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਪਕ"><i>ਟਪਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਹਿਲ"><i>ਟਹਿਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਅਟਕ"><i>ਅਟਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੜ੍ਹ"><i>ਖੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਿਕ"><i>ਟਿਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਠਹਿਰ"><i>ਠਹਿਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਡਰ"><i>ਡਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹਰਾਸ"><i>ਹਰਾਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹੌਲ"><i>ਹੌਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤੜਪ"><i>ਤੜਪ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤੜਫ਼"><i>ਤੜਫ਼</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਚਟ"><i>ਉਚਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੁਸ"><i>ਖੁਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਥਕ"><i>ਥਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹਂਭ"><i>ਹਂਭ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹੁੱਟ"><i>ਹੁੱਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਥੁੱਕ"><i>ਥੁੱਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਟ"><i>ਸੁਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨੱਚ"><i>ਨੱਚ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਢੁਕ"><i>ਢੁਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਧਾਰ"><i>ਪਧਾਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਹੁਂਚ"><i>ਪਹੁਂਚ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪੁਗ"><i>ਪੁਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪੁਜ"><i>ਪੁਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪੁੱਜ"><i>ਪੁੱਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਉੜ"><i>ਬਉੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੁਦਕ"><i>ਫੁਦਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਭਰ"><i>ਉਭਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੁਂਡ"><i>ਫੁਂਡ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਧ"><i>ਵਧ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਜ"><i>ਸੁਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਚ"><i>ਬਚ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਰਸ"><i>ਬਰਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਰਸ਼"><i>ਵਰਸ਼</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਰ੍ਹ"><i>ਵਰ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝਰ"><i>ਝਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰੁੜ੍ਹ"><i>ਰੁੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਗ"><i>ਵਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਿਂਡ"><i>ਖਿਂਡ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਿਂਡਰ"><i>ਖਿਂਡਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਿੱਲਰ"><i>ਖਿੱਲਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਿਖਰ"><i>ਬਿਖਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਿਲਕ"><i>ਵਿਲਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਅਕ"><i>ਟਅਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਠ"><i>ਨਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨੱਠ"><i>ਨੱਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਸ"><i>ਨਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਭੱਜ"><i>ਭੱਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੜ੍ਹ"><i>ਖੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਠਠ"><i>ਠਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਠਹਿਰ"><i>ਠਹਿਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਥਮ੍ਮ੍ਹ"><i>ਥਮ੍ਮ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੁਡੁਕ"><i>ਖੁਡੁਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰੁਟ੍ਠ"><i>ਰੁਟ੍ਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰੁੱਠ"><i>ਰੁੱਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰੁਸ"><i>ਰੁਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰੀਂਗ"><i>ਰੀਂਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸਰਕ"><i>ਸਰਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਲਮ"><i>ਪਲਮ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਟਕ"><i>ਲਟਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਮਕ"><i>ਲਮਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਂਟੱਕ"><i>ਉਂਟੱਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖੌਂਝ"><i>ਖੌਂਝ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਲਕਾਰ"><i>ਲਲਕਾਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਿਟ"><i>ਲਿਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲੇਟ"><i>ਲੇਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜਾਣ"><i>ਜਾਣ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤਾੜ"><i>ਤਾੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਭਾਂਪ"><i>ਭਾਂਪ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਖ"><i>ਲਖ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜੁਲਕ"><i>ਜੁਲਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਧੁਖ"><i>ਧੁਖ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਿਪਟ"><i>ਨਿਪਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਨਿਬੜ"><i>ਨਿਬੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਲਝ"><i>ਸੁਲਝ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਭਰ"><i>ਉਭਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਮੜ੍ਹ"><i>ਉਮੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੁਲ"><i>ਫੁਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਜ"><i>ਸੁਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਔਹੜ"><i>ਔਹੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹਟ"><i>ਹਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਰਾਜ"><i>ਬਰਾਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹੱਸ"><i>ਹੱਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗਿਰ"><i>ਗਿਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਿਸਮ"><i>ਬਿਸਮ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਛੁਪ"><i>ਛੁਪ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚੱਲ"><i>ਚੱਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜੁਲ"><i>ਜੁਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟੁਰ"><i>ਟੁਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤਗ"><i>ਤਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤੁਰ"><i>ਤੁਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫਿਰ"><i>ਫਿਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰਮ"><i>ਰਮ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹਂਢ"><i>ਹਂਢ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੁੜਕ"><i>ਕੁੜਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੁਰ"><i>ਝੁਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਕ"><i>ਸੁਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚੜ੍ਹ"><i>ਚੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉੱਠ"><i>ਉੱਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਠ"><i>ਉਠ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜਾਗ"><i>ਜਾਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮੁਕਰ"><i>ਮੁਕਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਭੌਂਕ"><i>ਭੌਂਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਹਂਵਾਕ"><i>ਹਂਵਾਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤਣ"><i>ਤਣ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਧੁੱਮ"><i>ਧੁੱਮ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਸਰ"><i>ਪਸਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੈਲ"><i>ਫੈਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉੜ"><i>ਉੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਲਰ"><i>ਉਲਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗਿੜ"><i>ਗਿੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੁਕ"><i>ਝੁਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਤ੍ਥਲ"><i>ਪਤ੍ਥਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਰਤ"><i>ਪਰਤ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫਿਰ"><i>ਫਿਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮੁੜ"><i>ਮੁੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਧਰ"><i>ਸੁਧਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੌਰ"><i>ਸੌਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜੱਮ"><i>ਜੱਮ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਠਰ"><i>ਠਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤਮਕ"><i>ਤਮਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਭੜਕ"><i>ਭੜਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਿਰ"><i>ਖਿਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਘੁਲ"><i>ਘੁਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਸਰ"><i>ਉਸਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਡ"><i>ਉਡ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉੱਡ"><i>ਉੱਡ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰਿੜ੍ਹ"><i>ਰਿੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲੁੜ੍ਹਕ"><i>ਲੁੜ੍ਹਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟੁੱਟ"><i>ਟੁੱਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮੁਰਕ"><i>ਮੁਰਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੱਟ"><i>ਫੱਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਮ੍ਹਲ"><i>ਉਮ੍ਹਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪੁਂਗਰ"><i>ਪੁਂਗਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫੁੱਟ"><i>ਫੁੱਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਜਣ"><i>ਜਣ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੁੜਕ"><i>ਕੁੜਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤੜਿਕ"><i>ਤੜਿਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਿਚਰ"><i>ਵਿਚਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉੱਗ"><i>ਉੱਗ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤਿਲ੍ਹਕ"><i>ਤਿਲ੍ਹਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫਿਸਲ"><i>ਫਿਸਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰਿੜ੍ਹ"><i>ਰਿੜ੍ਹ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੁਂਗੜ"><i>ਕੁਂਗੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਂਗੜ"><i>ਸੁਂਗੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਂਗੇੜ"><i>ਸੁਂਗੇੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੁਕੜ"><i>ਸੁਕੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਂਘ"><i>ਖਂਘ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਂਘੂਰ"><i>ਖਂਘੂਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਖਾਂਸ"><i>ਖਾਂਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਰਕ"><i>ਚਰਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਿਟਕ"><i>ਚਿਟਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਧੜਕ"><i>ਧੜਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਬਸ"><i>ਉਬਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗਲ"><i>ਗਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਸੜ"><i>ਸੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬਿਗੜ"><i>ਬਿਗੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਿਗੜ"><i>ਵਿਗੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਅਹੁੜ"><i>ਅਹੁੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤਰ"><i>ਤਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਤੈਰ"><i>ਤੈਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਦਬ"><i>ਦਬ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਿਸ"><i>ਪਿਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਬੀਤ"><i>ਬੀਤ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਉਧੜ"><i>ਉਧੜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਵਿਕ"><i>ਵਿਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਫਰਕ"><i>ਫਰਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਂਘਰ"><i>ਪਂਘਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗੁਜ਼ਰ"><i>ਗੁਜ਼ਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਢਲ"><i>ਢਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਂਘ"><i>ਲਂਘ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਮਚਲ"><i>ਮਚਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੂਟ"><i>ਝੂਟ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਝੂਣ"><i>ਝੂਣ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਡੋਲ"><i>ਡੋਲ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਥਟਕ"><i>ਥਟਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਥਲਕ"><i>ਥਲਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਗੂਂਜ"><i>ਗੂਂਜ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਚਿਰ"><i>ਚਿਰ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਪਕ"><i>ਪਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰਸ"><i>ਰਸ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਰਿਝ"><i>ਰਿਝ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਟਪ"><i>ਟਪ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਭਟਕ"><i>ਭਟਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਛੁਲਕ"><i>ਛੁਲਕ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕਂਬ"><i>ਕਂਬ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਕੰਬ"><i>ਕੰਬ</i><par n="ਚੀਕ__vblex_iv"/></e>
+    <e lm="ਲਰਜ਼"><i>ਲਰਜ਼</i><par n="ਚੀਕ__vblex_iv"/></e>
 
     <e lm="ਆ"><i>ਆ</i><par n="ਆ__vblex_iv"/></e>
     <e lm="ਰੋ"><i>ਰੋ</i><par n="ਆ__vblex_iv"/></e>
-    <e lm="ਆ"><i>ਆ</i><par n="ਆ__vblex_iv"/></e>
-    <e lm="ਰੋ"><i>ਰੋ</i><par n="ਆ__vblex_iv"/></e>
+    <e lm="ਜੀ"><i>ਜੀ</i><par n="ਆ__vblex_iv"/></e>
+    <e lm="ਮੁਰਝਾ"><i>ਮੁਰਝਾ</i><par n="ਆ__vblex_iv"/></e>
+    <e lm="ਸ਼ਰਮਾ"><i>ਸ਼ਰਮਾ</i><par n="ਆ__vblex_iv"/></e>
+    <e lm="ਬਹਾਰ ਆ"><i>ਬਹਾਰ<b/>ਆ</i><par n="ਆ__vblex_iv"/></e>
 
     <e lm="ਜਾ"><i></i><par n="ਜਾ__vblex_iv"/></e>
     <e lm="ਬਦਲ ਜਾ"><i>ਬਦਲ<b/></i><par n="ਜਾ__vblex_iv"/></e>
@@ -10487,6 +11505,11 @@
     <e lm="ਮੁੜ ਜਾ"><i>ਮੁੜ<b/></i><par n="ਜਾ__vblex_iv"/></e>
     <e lm="ਦਿਖਾਇਆ ਜਾ"><i>ਦਿਖਾਇਆ<b/></i><par n="ਜਾ__vblex_iv"/></e>
     <e lm="ਕਰੀਬ ਜਾ"><i>ਕਰੀਬ<b/></i><par n="ਜਾ__vblex_iv"/></e>
+    <e lm="ਟਲ ਜਾ"><i>ਟਲ<b/></i><par n="ਜਾ__vblex_iv"/></e>
+    <e lm="ਅੱਕ ਜਾ"><i>ਅੱਕ<b/></i><par n="ਜਾ__vblex_iv"/></e>
+    <e lm="ਨਟ੍ਠ ਜਾ"><i>ਨਟ੍ਠ<b/></i><par n="ਜਾ__vblex_iv"/></e>
+    <e lm="ਨੱਠ ਜਾ"><i>ਨੱਠ<b/></i><par n="ਜਾ__vblex_iv"/></e>
+    <e lm="ਸਰਕ ਜਾ"><i>ਸਰਕ<b/></i><par n="ਜਾ__vblex_iv"/></e>
 
     <e lm="ਕਰ"><i>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
     <e lm="ਪੈਦਾ ਕਰ"><i>ਪੈਦਾ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
@@ -10507,6 +11530,14 @@
     <e lm="ਸੰਚਾਰਿਤ ਕਰ"><i>ਸੰਚਾਰਿਤ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
     <e lm="ਜ਼ਿਕਰ ਕਰ"><i>ਜ਼ਿਕਰ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
     <e lm="ਮੁਹੱਈਆ ਕਰ"><i>ਮੁਹੱਈਆ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਅਦਾ ਕਰ"><i>ਅਦਾ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਇਕੱਠਾ ਕਰ"><i>ਇਕੱਠਾ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਪ੍ਰੇਰਿਤ ਕਰ"><i>ਪ੍ਰੇਰਿਤ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਪੈਦਾ ਕਰ"><i>ਪੈਦਾ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਮਜ਼ਬੂਤ ਕਰ"><i>ਮਜ਼ਬੂਤ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਨਿਰਧਾਰਤ ਕਰ"><i>ਨਿਰਧਾਰਤ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਉਤਪੰਨ ਕਰ"><i>ਉਤਪੰਨ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
+    <e lm="ਘੋਸ਼ਿਤ ਕਰ"><i>ਘੋਸ਼ਿਤ<b/>ਕ</i><par n="ਕ/ਰ__vblex_tv"/></e>
 
     <e lm="ਹੋਣਾ"><i></i><par n="/ਹੋਣਾ__vblex_iv"/></e>
     <e lm="ਪੈਦਾ ਹੋ"><i>ਪੈਦਾ<b/></i><par n="/ਹੋਣਾ__vblex_iv"/></e>
@@ -10514,6 +11545,8 @@
     <e lm="ਪਤਾ ਹੋ"><i>ਪਤਾ<b/></i><par n="/ਹੋਣਾ__vblex_iv"/></e>
     <e lm="ਅਨੁਮਾਨ ਹੋ"><i>ਅਨੁਮਾਨ<b/></i><par n="/ਹੋਣਾ__vblex_iv"/></e>
     <e lm="ਕਰੀਬ ਹੋ"><i>ਕਰੀਬ<b/></i><par n="/ਹੋਣਾ__vblex_iv"/></e>
+    <e lm="ਪ੍ਰੇਰਿਤ ਹੋ"><i>ਪ੍ਰੇਰਿਤ<b/></i><par n="/ਹੋਣਾ__vblex_iv"/></e>
+    <e lm="ਉਤਪੰਨ ਹੋ"><i>ਉਤਪੰਨ<b/></i><par n="/ਹੋਣਾ__vblex_iv"/></e>
 
     <e lm="ਦੇ"><i></i><par n="/ਦੇ__vblex_tv"/></e>
     <e lm="ਬਦਲ ਦੇ"><i>ਬਦਲ<b/></i><par n="/ਦੇ__vblex_tv"/></e>
@@ -10525,6 +11558,7 @@
     <e lm="ਅਜ੍ਜ"><i>ਅਜ੍ਜ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਭੀਤਰ"><i>ਭੀਤਰ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਵੀ"><i>ਵੀ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਨਹੀ"><i>ਨਹੀ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਨਹੀਂ"><i>ਨਹੀਂ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਉਪਰ"><i>ਉਪਰ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਬਿੱਟਰ"><i>ਬਿੱਟਰ</i><par n="ਅਜ੍ਜ__adv"/></e>
@@ -10532,6 +11566,7 @@
     <e lm="ਤੇਜ਼ੀ"><i>ਤੇਜ਼ੀ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਵਿਚ"><i>ਵਿਚ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਕਦੇ"><i>ਕਦੇ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਕਦੀ"><i>ਕਦੀ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਕੌਲ"><i>ਕੌਲ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਜਦ"><i>ਜਦ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਕੋਈ"><i>ਕੋਈ</i><par n="ਅਜ੍ਜ__adv"/></e>
@@ -10599,7 +11634,7 @@
     <e lm="ਮਾਤਰ"><i>ਮਾਤਰ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਮਾਤ੍ਰ"><i>ਮਾਤ੍ਰ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਕਾਹਨੂਂ"><i>ਕਾਹਨੂਂ</i><par n="ਅਜ੍ਜ__adv"/></e>
-    <e lm="ਕਿਉਂ"><i>ਕਿਉਂ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਕਿਉਂ"><i>ਕਿਉਂ</i><par n="int__adv"/></e>
     <e lm="ਕੀਨ"><i>ਕੀਨ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਕੇਤ"><i>ਕੇਤ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਜਉ ਜਉਂ"><i>ਜਉ<b/>ਜਉਂ</i><par n="ਅਜ੍ਜ__adv"/></e>
@@ -10818,6 +11853,7 @@
     <e lm="ਅਗਾੜੀ"><i>ਅਗਾੜੀ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਉਰ੍ਹਾਂ"><i>ਉਰ੍ਹਾਂ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਉਦਾਲੇ"><i>ਉਦਾਲੇ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਆਲੇ"><i>ਆਲੇ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਆਲੇ-ਦੁਆਲੇ"><i>ਆਲੇ-ਦੁਆਲੇ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਆਲੇ - ਦੁਆਲੇ"><i>ਆਲੇ<b/>-<b/>ਦੁਆਲੇ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਆਲੇ ਦੁਆਲੇ"><i>ਆਲੇ<b/>ਦੁਆਲੇ</i><par n="ਅਜ੍ਜ__adv"/></e>
@@ -10868,6 +11904,24 @@
     <e lm="ਅੰਤਿਮ"><i>ਅੰਤਿਮ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਸੱਜੇ"><i>ਸੱਜੇ</i><par n="ਅਜ੍ਜ__adv"/></e>
     <e lm="ਇਨ੍ਰਸ਼ੀਅਲ"><i>ਇਨ੍ਰਸ਼ੀਅਲ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਸਿਰਫ਼"><i>ਸਿਰਫ਼</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਕੁਝ"><i>ਕੁਝ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਥੋੜ੍ਹਾ"><i>ਥੋੜ੍ਹਾ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਵਿੱਚ"><i>ਵਿੱਚ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਲੀਨੀਅਰ"><i>ਲੀਨੀਅਰ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਸੱਚਮੁੱਚ"><i>ਸੱਚਮੁੱਚ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਇਕੱਠਾ"><i>ਇਕੱਠਾ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਸਪਸ਼ਟ"><i>ਸਪਸ਼ਟ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਬਿਲਕੁਲ"><i>ਬਿਲਕੁਲ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਸਫਲਤਾ"><i>ਸਫਲਤਾ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਖ਼ਪਤ"><i>ਖ਼ਪਤ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਅਨੰਤ"><i>ਅਨੰਤ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਮਿਸਲ"><i>ਮਿਸਲ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਮੱਦਦ"><i>ਮੱਦਦ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਯਾਨੀ"><i>ਯਾਨੀ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਮਰਨ"><i>ਮਰਨ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਛੇਤੀ"><i>ਛੇਤੀ</i><par n="ਅਜ੍ਜ__adv"/></e>
+    <e lm="ਪੇਸ਼ੇਵਰ"><i>ਪੇਸ਼ੇਵਰ</i><par n="ਅਜ੍ਜ__adv"/></e>
   </section>
 
   <section id="final" type="inconditional">
