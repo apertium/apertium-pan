@@ -1,0 +1,10 @@
+{
+    "arab": {
+        "input": "arab-input.txt",
+        "mode": "pan_Arab-morph"
+    },
+    "guru": {
+        "input": "guru-input.txt",
+        "mode": "pan_Guru-morph"
+    }
+}

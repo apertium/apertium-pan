@@ -1,0 +1,28 @@
+[-KcP-QhDH6LS#0] ^'ਚ/'ਚ<post>$
+[/-KcP-QhDH6LS]
+[0DUCxD10owuT#0] ^,/,<cm>$
+[/0DUCxD10owuT]
+[GYgw8IyJU-vc#0] ^ਪਈਰਾ/*ਪਈਰਾ$
+[/GYgw8IyJU-vc]
+[MgAD5IroBghd#0] ^੧੮੧ ਵਾਂ/੧੮੧<num>$
+[/MgAD5IroBghd]
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[OXPgIukyIPkh#0] ^-/-<guio>$
+[/OXPgIukyIPkh]
+[aALiOKGE9kp0#0] ^੦%/੦%<num><percent>$
+[/aALiOKGE9kp0]
+[jc38tTh8SVOm#0] ^।/।<sent>$
+[/jc38tTh8SVOm]
+[kpibhHut9rEV#0] ^ਵਜ਼ੀਿਨਾਦਾਾਸੀ/*ਵਜ਼ੀਿਨਾਦਾਾਸੀ$
+[/kpibhHut9rEV]
+[oGF-8KqSJwrO#0] ^ਖਖੜਫ਼ਰ/*ਖਖੜਫ਼ਰ$
+[/oGF-8KqSJwrO]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]
+[wTYPJ58V6rhl#0] ^ਝਵਣ/*ਝਵਣ$
+[/wTYPJ58V6rhl]
+[zbTuKuppzGqD#0] ^./.<sent>$
+[/zbTuKuppzGqD]
+[zfijrGXOb9_3#0] ^੪/੪<num>$
+[/zfijrGXOb9_3]
