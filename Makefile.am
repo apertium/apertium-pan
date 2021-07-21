@@ -2,8 +2,6 @@
 ## Makefile for apertium-pan
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=pan
 VAR1=Guru
 VAR2=Arab
@@ -64,8 +62,8 @@ $(LANG1)_$(VAR2).automorf.att.gz: $(LANG1)_$(VAR2).automorf.bin
 ## Disambiguation rules
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
-	$(CGCOMP) $< $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
+	cg-comp $< $@
 
 $(LANG1)_$(VAR1).prob: $(BASENAME).$(LANG1)_$(VAR1).tagged
 	apertium-tagger -s 0 -u 2 $@ $<
@@ -92,7 +90,10 @@ EXTRA_DIST=$(BASENAME).$(LANG1)_$(VAR1).dix		\
 apertium_pandir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_pan_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_pan_DATA=$(TARGETS_COMMON) $(LANG1)_$(VAR1).prob $(LANG1)_$(VAR2).prob
+apertium_pan_DATA=$(TARGETS_COMMON) $(LANG1)_$(VAR2).prob \
+	$(BASENAME).$(LANG1)_$(VAR1).dix \
+	$(BASENAME).$(LANG1)_$(VAR2).dix \
+	$(BASENAME).$(LANG1).rlx
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -106,10 +107,6 @@ modes/$(LANG1)-morph.mode: modes.xml
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_pan_srcdir) || mkdir -p $(DESTDIR)$(apertium_pan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1)_$(VAR1).dix $(DESTDIR)$(apertium_pan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1)_$(VAR2).dix $(DESTDIR)$(apertium_pan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_pan_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
